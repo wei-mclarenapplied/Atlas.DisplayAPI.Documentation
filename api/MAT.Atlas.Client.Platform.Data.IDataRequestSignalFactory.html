@@ -1,0 +1,1118 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IDataRequestSignalFactory
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IDataRequestSignalFactory
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory">
+  
+  
+  <h1 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory" class="text-break">Interface IDataRequestSignalFactory
+  </h1>
+  <div class="markdown level0 summary"><p>A data signal factory class.
+Used for creating the relevant signal for posting it on the signal bus
+<a class="xref" href="MAT.Atlas.Api.Core.Signals.ISignalBus.html">ISignalBus</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Client.Platform.Data.html">MAT.Atlas.Client.Platform.Data</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Client.Platform.dll</h6>
+  <h5 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IDataRequestSignalFactory</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeDataRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeDataRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeDataRequestSignal_System_Guid_MAT_OCS_Core_CompositeSessionContainerKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_MAT_Atlas_Api_Core_Data_TimeRange_System_Int32_MAT_Atlas_Client_Platform_Data_SampleMode_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeDataRequestSignal(System.Guid,MAT.OCS.Core.CompositeSessionContainerKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer,MAT.Atlas.Api.Core.Data.TimeRange,System.Int32,MAT.Atlas.Client.Platform.Data.SampleMode)">CreateCompositeDataRequestSignal(Guid, CompositeSessionContainerKey, IDisplayParameterContainer, TimeRange, Int32, SampleMode)</h4>
+  <div class="markdown level1 summary"><p>Creates a composite data request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeDataRequestSignal CreateCompositeDataRequestSignal(Guid sourceId, CompositeSessionContainerKey compositeSessionContainerKey, IDisplayParameterContainer parameterContainer, TimeRange timeRange, int sampleCount, SampleMode sampleMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionContainerKey.html">CompositeSessionContainerKey</a></td>
+        <td><span class="parametername">compositeSessionContainerKey</span></td>
+        <td><p>Composite session container key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a></td>
+        <td><span class="parametername">parameterContainer</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Data.TimeRange.html">TimeRange</a></td>
+        <td><span class="parametername">timeRange</span></td>
+        <td><p>Time range of data request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td><p>Number of samples to return. It is used to calculate the interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleMode.html">SampleMode</a></td>
+        <td><span class="parametername">sampleMode</span></td>
+        <td><p>Sample mode <a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleMode.html">SampleMode</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeDataRequestSignal.html">CompositeDataRequestSignal</a></td>
+        <td><p>Composite data request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeDataRequestSignal.html">CompositeDataRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeDataRequestSignal_System_Guid_MAT_OCS_Core_CompositeSessionContainerKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_MAT_Atlas_Api_Core_Data_TimeRange_System_Int32_MAT_Atlas_Client_Platform_Data_SampleMode__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A new request identifier will be assigned automatically.</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeDataRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeDataRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeDataRequestSignal_System_Guid_System_Guid_MAT_OCS_Core_CompositeSessionContainerKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_MAT_Atlas_Api_Core_Data_TimeRange_System_Int32_MAT_Atlas_Client_Platform_Data_SampleMode_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeDataRequestSignal(System.Guid,System.Guid,MAT.OCS.Core.CompositeSessionContainerKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer,MAT.Atlas.Api.Core.Data.TimeRange,System.Int32,MAT.Atlas.Client.Platform.Data.SampleMode)">CreateCompositeDataRequestSignal(Guid, Guid, CompositeSessionContainerKey, IDisplayParameterContainer, TimeRange, Int32, SampleMode)</h4>
+  <div class="markdown level1 summary"><p>Creates a composite data request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeDataRequestSignal CreateCompositeDataRequestSignal(Guid sourceId, Guid requestId, CompositeSessionContainerKey compositeSessionContainerKey, IDisplayParameterContainer parameterContainer, TimeRange timeRange, int sampleCount, SampleMode sampleMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requestId</span></td>
+        <td><p>Request identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionContainerKey.html">CompositeSessionContainerKey</a></td>
+        <td><span class="parametername">compositeSessionContainerKey</span></td>
+        <td><p>Composite session container key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a></td>
+        <td><span class="parametername">parameterContainer</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Data.TimeRange.html">TimeRange</a></td>
+        <td><span class="parametername">timeRange</span></td>
+        <td><p>Time range of data request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td><p>Number of samples to return. It is used to calculate the interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleMode.html">SampleMode</a></td>
+        <td><span class="parametername">sampleMode</span></td>
+        <td><p>Sample mode <a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleMode.html">SampleMode</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeDataRequestSignal.html">CompositeDataRequestSignal</a></td>
+        <td><p>Composite data request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeDataRequestSignal.html">CompositeDataRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeSampleRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeSampleRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeSampleRequestSignal_System_Guid_MAT_OCS_Core_CompositeSessionContainerKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_MAT_Atlas_Api_Core_Data_TimeRange_MAT_Atlas_Client_Platform_Data_SampleDirection_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeSampleRequestSignal(System.Guid,MAT.OCS.Core.CompositeSessionContainerKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer,MAT.Atlas.Api.Core.Data.TimeRange,MAT.Atlas.Client.Platform.Data.SampleDirection)">CreateCompositeSampleRequestSignal(Guid, CompositeSessionContainerKey, IDisplayParameterContainer, TimeRange, SampleDirection)</h4>
+  <div class="markdown level1 summary"><p>Creates a composite sample request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeSampleRequestSignal CreateCompositeSampleRequestSignal(Guid sourceId, CompositeSessionContainerKey compositeSessionContainerKey, IDisplayParameterContainer parameterContainer, TimeRange timeRange, SampleDirection sampleDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionContainerKey.html">CompositeSessionContainerKey</a></td>
+        <td><span class="parametername">compositeSessionContainerKey</span></td>
+        <td><p>Composite session container key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a></td>
+        <td><span class="parametername">parameterContainer</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Data.TimeRange.html">TimeRange</a></td>
+        <td><span class="parametername">timeRange</span></td>
+        <td><p>Time range of data request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleDirection.html">SampleDirection</a></td>
+        <td><span class="parametername">sampleDirection</span></td>
+        <td><p>Define direction for data look up.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.html">CompositeSampleRequestSignal</a></td>
+        <td><p>Composite sample request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.html">CompositeSampleRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeSampleRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeSampleRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeSampleRequestSignal_System_Guid_MAT_OCS_Core_CompositeSessionContainerKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_System_Int64_System_Int32_MAT_Atlas_Client_Platform_Data_SampleDirection_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeSampleRequestSignal(System.Guid,MAT.OCS.Core.CompositeSessionContainerKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer,System.Int64,System.Int32,MAT.Atlas.Client.Platform.Data.SampleDirection)">CreateCompositeSampleRequestSignal(Guid, CompositeSessionContainerKey, IDisplayParameterContainer, Int64, Int32, SampleDirection)</h4>
+  <div class="markdown level1 summary"><p>Creates a composite sample request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeSampleRequestSignal CreateCompositeSampleRequestSignal(Guid sourceId, CompositeSessionContainerKey compositeSessionContainerKey, IDisplayParameterContainer parameterContainer, long startTime, int sampleCount, SampleDirection sampleDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionContainerKey.html">CompositeSessionContainerKey</a></td>
+        <td><span class="parametername">compositeSessionContainerKey</span></td>
+        <td><p>Composite session container key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a></td>
+        <td><span class="parametername">parameterContainer</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>Start timestamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td><p>Number of samples to return.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleDirection.html">SampleDirection</a></td>
+        <td><span class="parametername">sampleDirection</span></td>
+        <td><p>Define direction for data look up.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.html">CompositeSampleRequestSignal</a></td>
+        <td><p>Composite sample request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.html">CompositeSampleRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeSampleRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeSampleRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeSampleRequestSignal_System_Guid_System_Guid_MAT_OCS_Core_CompositeSessionContainerKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_MAT_Atlas_Api_Core_Data_TimeRange_MAT_Atlas_Client_Platform_Data_SampleDirection_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeSampleRequestSignal(System.Guid,System.Guid,MAT.OCS.Core.CompositeSessionContainerKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer,MAT.Atlas.Api.Core.Data.TimeRange,MAT.Atlas.Client.Platform.Data.SampleDirection)">CreateCompositeSampleRequestSignal(Guid, Guid, CompositeSessionContainerKey, IDisplayParameterContainer, TimeRange, SampleDirection)</h4>
+  <div class="markdown level1 summary"><p>Creates a composite sample request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeSampleRequestSignal CreateCompositeSampleRequestSignal(Guid sourceId, Guid requestId, CompositeSessionContainerKey compositeSessionContainerKey, IDisplayParameterContainer parameterContainer, TimeRange timeRange, SampleDirection sampleDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requestId</span></td>
+        <td><p>Request identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionContainerKey.html">CompositeSessionContainerKey</a></td>
+        <td><span class="parametername">compositeSessionContainerKey</span></td>
+        <td><p>Composite session container key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a></td>
+        <td><span class="parametername">parameterContainer</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Data.TimeRange.html">TimeRange</a></td>
+        <td><span class="parametername">timeRange</span></td>
+        <td><p>Time range of data request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleDirection.html">SampleDirection</a></td>
+        <td><span class="parametername">sampleDirection</span></td>
+        <td><p>Define direction for data look up.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.html">CompositeSampleRequestSignal</a></td>
+        <td><p>Composite sample request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.html">CompositeSampleRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeSampleRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeSampleRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeSampleRequestSignal_System_Guid_System_Guid_MAT_OCS_Core_CompositeSessionContainerKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_System_Int64_System_Int32_MAT_Atlas_Client_Platform_Data_SampleDirection_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateCompositeSampleRequestSignal(System.Guid,System.Guid,MAT.OCS.Core.CompositeSessionContainerKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer,System.Int64,System.Int32,MAT.Atlas.Client.Platform.Data.SampleDirection)">CreateCompositeSampleRequestSignal(Guid, Guid, CompositeSessionContainerKey, IDisplayParameterContainer, Int64, Int32, SampleDirection)</h4>
+  <div class="markdown level1 summary"><p>Creates a composite sample request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeSampleRequestSignal CreateCompositeSampleRequestSignal(Guid sourceId, Guid requestId, CompositeSessionContainerKey compositeSessionContainerKey, IDisplayParameterContainer parameterContainer, long startTime, int sampleCount, SampleDirection sampleDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requestId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionContainerKey.html">CompositeSessionContainerKey</a></td>
+        <td><span class="parametername">compositeSessionContainerKey</span></td>
+        <td><p>Composite session container key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a></td>
+        <td><span class="parametername">parameterContainer</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleDirection.html">SampleDirection</a></td>
+        <td><span class="parametername">sampleDirection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.html">CompositeSampleRequestSignal</a></td>
+        <td><p>Composite sample request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.html">CompositeSampleRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateCompositeSampleRequestSignal_System_Guid_System_Guid_MAT_OCS_Core_CompositeSessionContainerKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_System_Int64_System_Int32_MAT_Atlas_Client_Platform_Data_SampleDirection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A new request identifier will be assigned automatically.</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateDataRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateDataRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateDataRequestSignal_System_Guid_MAT_Atlas_Client_Platform_Parameters_IDisplayParameter_MAT_Atlas_Api_Core_Data_TimeRange_System_Int32_MAT_Atlas_Client_Platform_Data_SampleMode_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateDataRequestSignal(System.Guid,MAT.Atlas.Client.Platform.Parameters.IDisplayParameter,MAT.Atlas.Api.Core.Data.TimeRange,System.Int32,MAT.Atlas.Client.Platform.Data.SampleMode)">CreateDataRequestSignal(Guid, IDisplayParameter, TimeRange, Int32, SampleMode)</h4>
+  <div class="markdown level1 summary"><p>Creates a data request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DataRequestSignal CreateDataRequestSignal(Guid sourceId, IDisplayParameter parameter, TimeRange timeRange, int sampleCount, SampleMode sampleMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Parameter <a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a> requesting data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Data.TimeRange.html">TimeRange</a></td>
+        <td><span class="parametername">timeRange</span></td>
+        <td><p>Time range of data request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td><p>Number of samples to return. It is used to calculate the interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleMode.html">SampleMode</a></td>
+        <td><span class="parametername">sampleMode</span></td>
+        <td><p>Sample mode <a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleMode.html">SampleMode</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.DataRequestSignal.html">DataRequestSignal</a></td>
+        <td><p>Data request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.DataRequestSignal.html">DataRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateDataRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateDataRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateDataRequestSignal_System_Guid_System_Guid_MAT_Atlas_Client_Platform_Parameters_IDisplayParameter_MAT_Atlas_Api_Core_Data_TimeRange_System_Int32_MAT_Atlas_Client_Platform_Data_SampleMode_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateDataRequestSignal(System.Guid,System.Guid,MAT.Atlas.Client.Platform.Parameters.IDisplayParameter,MAT.Atlas.Api.Core.Data.TimeRange,System.Int32,MAT.Atlas.Client.Platform.Data.SampleMode)">CreateDataRequestSignal(Guid, Guid, IDisplayParameter, TimeRange, Int32, SampleMode)</h4>
+  <div class="markdown level1 summary"><p>Creates data request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DataRequestSignal CreateDataRequestSignal(Guid sourceId, Guid requestId, IDisplayParameter parameter, TimeRange timeRange, int sampleCount, SampleMode sampleMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requestId</span></td>
+        <td><p>Request identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Parameter <a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a> requesting data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Data.TimeRange.html">TimeRange</a></td>
+        <td><span class="parametername">timeRange</span></td>
+        <td><p>Time range of data request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td><p>Number of samples to return. It is used to calculate the interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleMode.html">SampleMode</a></td>
+        <td><span class="parametername">sampleMode</span></td>
+        <td><p>Sample mode <a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleMode.html">SampleMode</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.DataRequestSignal.html">DataRequestSignal</a></td>
+        <td><p>Data request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.DataRequestSignal.html">DataRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateDataStatisticsRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateDataStatisticsRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateDataStatisticsRequestSignal_System_Guid_System_Guid_MAT_OCS_Core_CompositeSessionContainerKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_MAT_Atlas_Api_Core_Data_TimeRange_MAT_Atlas_Client_Platform_Data_ILap_MAT_Atlas_Client_Platform_Data_StatisticLevel_MAT_Atlas_Client_Platform_Data_StatisticOption_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateDataStatisticsRequestSignal(System.Guid,System.Guid,MAT.OCS.Core.CompositeSessionContainerKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer,MAT.Atlas.Api.Core.Data.TimeRange,MAT.Atlas.Client.Platform.Data.ILap,MAT.Atlas.Client.Platform.Data.StatisticLevel,MAT.Atlas.Client.Platform.Data.StatisticOption)">CreateDataStatisticsRequestSignal(Guid, Guid, CompositeSessionContainerKey, IDisplayParameterContainer, TimeRange, ILap, StatisticLevel, StatisticOption)</h4>
+  <div class="markdown level1 summary"><p>Creates a statistics data request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DataStatisticsRequestSignal CreateDataStatisticsRequestSignal(Guid sourceId, Guid requestId, CompositeSessionContainerKey compositeSessionContainerKey, IDisplayParameterContainer parameterContainer, TimeRange timeRange, ILap lap, StatisticLevel statisticLevel, StatisticOption statisticOption)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requestId</span></td>
+        <td><p>Request identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionContainerKey.html">CompositeSessionContainerKey</a></td>
+        <td><span class="parametername">compositeSessionContainerKey</span></td>
+        <td><p>Composite session container key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a></td>
+        <td><span class="parametername">parameterContainer</span></td>
+        <td><p>Parameter container <a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a> requesting data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Data.TimeRange.html">TimeRange</a></td>
+        <td><span class="parametername">timeRange</span></td>
+        <td><p>Time range of data request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.ILap.html">ILap</a></td>
+        <td><span class="parametername">lap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.StatisticLevel.html">StatisticLevel</a></td>
+        <td><span class="parametername">statisticLevel</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.StatisticLevel.html">StatisticLevel</a>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.StatisticOption.html">StatisticOption</a></td>
+        <td><span class="parametername">statisticOption</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.StatisticOption.html">StatisticOption</a>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.DataStatisticsRequestSignal.html">DataStatisticsRequestSignal</a></td>
+        <td><p>Data statistics request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.DataStatisticsRequestSignal.html">DataStatisticsRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateSampleRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_System_Guid_MAT_OCS_Core_CompositeSessionKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameter_MAT_Atlas_Api_Core_Data_TimeRange_MAT_Atlas_Client_Platform_Data_SampleDirection_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateSampleRequestSignal(System.Guid,MAT.OCS.Core.CompositeSessionKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameter,MAT.Atlas.Api.Core.Data.TimeRange,MAT.Atlas.Client.Platform.Data.SampleDirection)">CreateSampleRequestSignal(Guid, CompositeSessionKey, IDisplayParameter, TimeRange, SampleDirection)</h4>
+  <div class="markdown level1 summary"><p>Creates a sample request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SampleRequestSignal CreateSampleRequestSignal(Guid sourceId, CompositeSessionKey compositeSessionKey, IDisplayParameter parameter, TimeRange timeRange, SampleDirection sampleDirection = SampleDirection.Next)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">compositeSessionKey</span></td>
+        <td><p>Composite session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Parameter <a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a> requesting data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Data.TimeRange.html">TimeRange</a></td>
+        <td><span class="parametername">timeRange</span></td>
+        <td><p>Time range of data request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleDirection.html">SampleDirection</a></td>
+        <td><span class="parametername">sampleDirection</span></td>
+        <td><p>Define direction for data look up. Default value is SampleDirection.Next.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.html">SampleRequestSignal</a></td>
+        <td><p>Sample request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.html">SampleRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_System_Guid_MAT_OCS_Core_CompositeSessionKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameter_MAT_Atlas_Api_Core_Data_TimeRange_MAT_Atlas_Client_Platform_Data_SampleDirection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A new request identifier will be assigned automatically.</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateSampleRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_System_Guid_MAT_OCS_Core_CompositeSessionKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameter_System_Int64_System_Int32_MAT_Atlas_Client_Platform_Data_SampleDirection_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateSampleRequestSignal(System.Guid,MAT.OCS.Core.CompositeSessionKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameter,System.Int64,System.Int32,MAT.Atlas.Client.Platform.Data.SampleDirection)">CreateSampleRequestSignal(Guid, CompositeSessionKey, IDisplayParameter, Int64, Int32, SampleDirection)</h4>
+  <div class="markdown level1 summary"><p>Creates a sample request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SampleRequestSignal CreateSampleRequestSignal(Guid sourceId, CompositeSessionKey compositeSessionKey, IDisplayParameter parameter, long startTime, int sampleCount, SampleDirection sampleDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">compositeSessionKey</span></td>
+        <td><p>Composite session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Parameter <a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a> requesting data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>Start timestamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleDirection.html">SampleDirection</a></td>
+        <td><span class="parametername">sampleDirection</span></td>
+        <td><p>Define direction for data look up.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.html">SampleRequestSignal</a></td>
+        <td><p>Sample request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.html">SampleRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_System_Guid_MAT_OCS_Core_CompositeSessionKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameter_System_Int64_System_Int32_MAT_Atlas_Client_Platform_Data_SampleDirection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A new request identifier will be assigned automatically.</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateSampleRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_System_Guid_System_Guid_MAT_OCS_Core_CompositeSessionKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameter_MAT_Atlas_Api_Core_Data_TimeRange_MAT_Atlas_Client_Platform_Data_SampleDirection_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateSampleRequestSignal(System.Guid,System.Guid,MAT.OCS.Core.CompositeSessionKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameter,MAT.Atlas.Api.Core.Data.TimeRange,MAT.Atlas.Client.Platform.Data.SampleDirection)">CreateSampleRequestSignal(Guid, Guid, CompositeSessionKey, IDisplayParameter, TimeRange, SampleDirection)</h4>
+  <div class="markdown level1 summary"><p>Creates a sample request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SampleRequestSignal CreateSampleRequestSignal(Guid sourceId, Guid requestId, CompositeSessionKey compositeSessionKey, IDisplayParameter parameter, TimeRange timeRange, SampleDirection sampleDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requestId</span></td>
+        <td><p>Request identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">compositeSessionKey</span></td>
+        <td><p>Composite session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Parameter <a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a> requesting data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Data.TimeRange.html">TimeRange</a></td>
+        <td><span class="parametername">timeRange</span></td>
+        <td><p>Time range of data request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleDirection.html">SampleDirection</a></td>
+        <td><span class="parametername">sampleDirection</span></td>
+        <td><p>Define direction for data look up.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.html">SampleRequestSignal</a></td>
+        <td><p>Sample request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.html">SampleRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateSampleRequestSignal*"></a>
+  <h4 id="MAT_Atlas_Client_Platform_Data_IDataRequestSignalFactory_CreateSampleRequestSignal_System_Guid_System_Guid_MAT_OCS_Core_CompositeSessionKey_MAT_Atlas_Client_Platform_Parameters_IDisplayParameter_System_Int64_System_Int32_MAT_Atlas_Client_Platform_Data_SampleDirection_" data-uid="MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.CreateSampleRequestSignal(System.Guid,System.Guid,MAT.OCS.Core.CompositeSessionKey,MAT.Atlas.Client.Platform.Parameters.IDisplayParameter,System.Int64,System.Int32,MAT.Atlas.Client.Platform.Data.SampleDirection)">CreateSampleRequestSignal(Guid, Guid, CompositeSessionKey, IDisplayParameter, Int64, Int32, SampleDirection)</h4>
+  <div class="markdown level1 summary"><p>Creates a sample request signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SampleRequestSignal CreateSampleRequestSignal(Guid sourceId, Guid requestId, CompositeSessionKey compositeSessionKey, IDisplayParameter parameter, long startTime, int sampleCount, SampleDirection sampleDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">sourceId</span></td>
+        <td><p>Signal sender identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requestId</span></td>
+        <td><p>Request identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.OCS.Core.CompositeSessionKey.html">CompositeSessionKey</a></td>
+        <td><span class="parametername">compositeSessionKey</span></td>
+        <td><p>Composite session key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Parameter <a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html">IDisplayParameter</a> requesting data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>Start timestamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td><p>Number of samples moving from start time.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.SampleDirection.html">SampleDirection</a></td>
+        <td><span class="parametername">sampleDirection</span></td>
+        <td><p>Define direction for data look up.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.html">SampleRequestSignal</a></td>
+        <td><p>Sample request signal <a class="xref" href="MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.html">SampleRequestSignal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

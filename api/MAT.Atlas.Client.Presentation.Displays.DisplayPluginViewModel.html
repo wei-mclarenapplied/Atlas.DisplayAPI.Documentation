@@ -1,0 +1,803 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DisplayPluginViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DisplayPluginViewModel
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel">
+  
+  
+  <h1 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel" class="text-break">Class DisplayPluginViewModel
+  </h1>
+  <div class="markdown level0 summary"><p>Base class for the main display view model.
+Allows display interact with the rest of application.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html">BindableBase</a></div>
+    <div class="level2"><a class="xref" href="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.html">DisposableBindableBase</a></div>
+    <div class="level3"><span class="xref">DisplayPluginViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><a class="xref" href="MAT.Atlas.Api.Core.System.INotifyOfDisposal.html">INotifyOfDisposal</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.html#MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_Dispose">DisposableBindableBase.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.html#MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_Disposed">DisposableBindableBase.Disposed</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_OnPropertyChanged_System_String_">BindableBase.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_">BindableBase.OnPropertyChanged(PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_SetProperty__1___0____0_System_String_">BindableBase.SetProperty&lt;T&gt;(T, T, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_SetProperty__1___0____0_System_ComponentModel_PropertyChangedEventArgs_">BindableBase.SetProperty&lt;T&gt;(T, T, PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_PropertyChanged">BindableBase.PropertyChanged</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Client.Presentation.Displays.html">MAT.Atlas.Client.Presentation.Displays</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Client.Presentation.dll</h6>
+  <h5 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class DisplayPluginViewModel : DisposableBindableBase, INotifyPropertyChanged, INotifyOfDisposal, IDisposable, IDisplayLetterViewModel</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel__ctor_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.#ctor*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel__ctor" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.#ctor">DisplayPluginViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DisplayPluginViewModel()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_ActiveCompositeSessionContainer_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.ActiveCompositeSessionContainer*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_ActiveCompositeSessionContainer" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.ActiveCompositeSessionContainer">ActiveCompositeSessionContainer</h4>
+  <div class="markdown level1 summary"><p>Active composite session container <a class="xref" href="MAT.Atlas.Client.Platform.Sessions.ICompositeSessionContainer.html">ICompositeSessionContainer</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ICompositeSessionContainer ActiveCompositeSessionContainer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Sessions.ICompositeSessionContainer.html">ICompositeSessionContainer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_CanRetrieveData_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.CanRetrieveData*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_CanRetrieveData" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.CanRetrieveData">CanRetrieveData</h4>
+  <div class="markdown level1 summary"><p>Gets whether a display can receive data by having a valid session assigned to it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool CanRetrieveData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is active; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_IsSelected_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.IsSelected*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_IsSelected" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.IsSelected">IsSelected</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsSelected { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is active; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_ScopeIdentity_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.ScopeIdentity*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_ScopeIdentity" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.ScopeIdentity">ScopeIdentity</h4>
+  <div class="markdown level1 summary"><p>Gets the scope identity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IScopeIdentity ScopeIdentity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html">IScopeIdentity</a></td>
+        <td><p>The scope identity <a class="xref" href="MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html">IScopeIdentity</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_ServiceContext_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.ServiceContext*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_ServiceContext" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.ServiceContext">ServiceContext</h4>
+  <div class="markdown level1 summary"><p>Gets the service context of the display.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IDisplayPluginServiceContext ServiceContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Presentation.Displays.IDisplayPluginServiceContext.html">IDisplayPluginServiceContext</a></td>
+        <td><p>The display plugin service context <a class="xref" href="MAT.Atlas.Client.Presentation.Displays.IDisplayPluginServiceContext.html">IDisplayPluginServiceContext</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_Dispose_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.Dispose*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_Dispose_System_Boolean_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Releases unmanaged and - optionally - managed resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td><p><code>true</code> to release both managed and unmanaged resources; <code>false</code> to release only
+unmanaged resources.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.html#MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_Dispose_System_Boolean_">DisposableBindableBase.Dispose(Boolean)</a></div>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnActiveDisplayPageChanged_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnActiveDisplayPageChanged*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnActiveDisplayPageChanged_System_Boolean_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnActiveDisplayPageChanged(System.Boolean)">OnActiveDisplayPageChanged(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Occurs when display&apos;s page active state changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnActiveDisplayPageChanged(bool isActive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isActive</span></td>
+        <td><p><code>true</code> means the display can resume running; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCanRenderDisplayChanged_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCanRenderDisplayChanged*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCanRenderDisplayChanged_System_Boolean_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCanRenderDisplayChanged(System.Boolean)">OnCanRenderDisplayChanged(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Occurs when underlying display selection changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnCanRenderDisplayChanged(bool canRender)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">canRender</span></td>
+        <td><p><code>true</code> can render i.e. visible; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCompositeSessionContainerChanged_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCompositeSessionContainerChanged*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCompositeSessionContainerChanged" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCompositeSessionContainerChanged">OnCompositeSessionContainerChanged()</h4>
+  <div class="markdown level1 summary"><p>Occurs when active composite session container changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnCompositeSessionContainerChanged()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCompositeSessionLoaded_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCompositeSessionLoaded*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCompositeSessionLoaded_MAT_Atlas_Client_Platform_Sessions_CompositeSessionEventArgs_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCompositeSessionLoaded(MAT.Atlas.Client.Platform.Sessions.CompositeSessionEventArgs)">OnCompositeSessionLoaded(CompositeSessionEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Occurs when a composite session is loaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnCompositeSessionLoaded(CompositeSessionEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Sessions.CompositeSessionEventArgs.html">CompositeSessionEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>Loaded composite session <a class="xref" href="MAT.Atlas.Client.Platform.Sessions.CompositeSessionEventArgs.html">CompositeSessionEventArgs</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCompositeSessionUnLoaded_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCompositeSessionUnLoaded*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCompositeSessionUnLoaded_MAT_Atlas_Client_Platform_Sessions_CompositeSessionUnloadedEventArgs_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCompositeSessionUnLoaded(MAT.Atlas.Client.Platform.Sessions.CompositeSessionUnloadedEventArgs)">OnCompositeSessionUnLoaded(CompositeSessionUnloadedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Occurs when a composite session is unloaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnCompositeSessionUnLoaded(CompositeSessionUnloadedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Sessions.CompositeSessionUnloadedEventArgs.html">CompositeSessionUnloadedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>Unloaded composite session <a class="xref" href="MAT.Atlas.Client.Platform.Sessions.CompositeSessionUnloadedEventArgs.html">CompositeSessionUnloadedEventArgs</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCursorDataPointChanged_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCursorDataPointChanged*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnCursorDataPointChanged_MAT_Atlas_Client_Platform_Sessions_ICompositeSession_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnCursorDataPointChanged(MAT.Atlas.Client.Platform.Sessions.ICompositeSession)">OnCursorDataPointChanged(ICompositeSession)</h4>
+  <div class="markdown level1 summary"><p>Occurs when the cursor data point changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnCursorDataPointChanged(ICompositeSession compositeSession)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Sessions.ICompositeSession.html">ICompositeSession</a></td>
+        <td><span class="parametername">compositeSession</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Sessions.ICompositeSession.html">ICompositeSession</a>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnInitialised_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnInitialised*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnInitialised" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnInitialised">OnInitialised()</h4>
+  <div class="markdown level1 summary"><p>Occurs when display view model completed initialisation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnInitialised()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnParameterAdded_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnParameterAdded*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnParameterAdded_MAT_Atlas_Client_Platform_Parameters_ParameterEventArgs_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnParameterAdded(MAT.Atlas.Client.Platform.Parameters.ParameterEventArgs)">OnParameterAdded(ParameterEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Occurs when a parameter is added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnParameterAdded(ParameterEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.ParameterEventArgs.html">ParameterEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>Added parameter <a class="xref" href="MAT.Atlas.Client.Platform.Parameters.ParameterEventArgs.html">ParameterEventArgs</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnParameterContainerAdded_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnParameterContainerAdded*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnParameterContainerAdded_MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnParameterContainerAdded(MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer)">OnParameterContainerAdded(IDisplayParameterContainer)</h4>
+  <div class="markdown level1 summary"><p>Occurs when the parameter container is added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnParameterContainerAdded(IDisplayParameterContainer parameterContainer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a></td>
+        <td><span class="parametername">parameterContainer</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html">IDisplayParameterContainer</a>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnParameterContainerRemoved_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnParameterContainerRemoved*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnParameterContainerRemoved_System_Guid_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnParameterContainerRemoved(System.Guid)">OnParameterContainerRemoved(Guid)</h4>
+  <div class="markdown level1 summary"><p>Occurs when the parameter container is removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnParameterContainerRemoved(Guid instanceIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceIdentifier</span></td>
+        <td><p>Parameter instance identifier
+<a class="xref" href="MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html#MAT_Atlas_Client_Platform_Parameters_IDisplayParameterContainer_InstanceIdentifier">InstanceIdentifier</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnParameterRemoved_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnParameterRemoved*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnParameterRemoved_MAT_Atlas_Client_Platform_Parameters_ParameterEventArgs_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnParameterRemoved(MAT.Atlas.Client.Platform.Parameters.ParameterEventArgs)">OnParameterRemoved(ParameterEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Occurs when a parameter is removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnParameterRemoved(ParameterEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Parameters.ParameterEventArgs.html">ParameterEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>Removed parameter <a class="xref" href="MAT.Atlas.Client.Platform.Parameters.ParameterEventArgs.html">ParameterEventArgs</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnSessionTimeRangeChanged_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnSessionTimeRangeChanged*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_OnSessionTimeRangeChanged_MAT_Atlas_Client_Platform_Sessions_ICompositeSession_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.OnSessionTimeRangeChanged(MAT.Atlas.Client.Platform.Sessions.ICompositeSession)">OnSessionTimeRangeChanged(ICompositeSession)</h4>
+  <div class="markdown level1 summary"><p>Occurs when the data time range changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnSessionTimeRangeChanged(ICompositeSession compositeSession)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Sessions.ICompositeSession.html">ICompositeSession</a></td>
+        <td><span class="parametername">compositeSession</span></td>
+        <td><a class="xref" href="MAT.Atlas.Client.Platform.Sessions.ICompositeSession.html">ICompositeSession</a>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_ReadProperty_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.ReadProperty*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_ReadProperty__1___0_System_String_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.ReadProperty``1(``0,System.String)">ReadProperty&lt;T&gt;(T, String)</h4>
+  <div class="markdown level1 summary"><p>Reads the property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T ReadProperty&lt;T&gt;(T defaultValue, string propertyName = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>The default value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The property value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_SaveProperty_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.SaveProperty*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Displays_DisplayPluginViewModel_SaveProperty__1___0_System_String_" data-uid="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.SaveProperty``1(``0,System.String)">SaveProperty&lt;T&gt;(T, String)</h4>
+  <div class="markdown level1 summary"><p>Saves the display property value value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveProperty&lt;T&gt;(T item, string propertyName = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The item value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>The property name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The Property type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <a class="xref" href="MAT.Atlas.Api.Core.System.INotifyOfDisposal.html">INotifyOfDisposal</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

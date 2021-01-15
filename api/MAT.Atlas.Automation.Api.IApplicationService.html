@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IApplicationService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IApplicationService
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Api.IApplicationService">
+  
+  
+  <h1 id="MAT_Atlas_Automation_Api_IApplicationService" data-uid="MAT.Atlas.Automation.Api.IApplicationService" class="text-break">Interface IApplicationService
+  </h1>
+  <div class="markdown level0 summary"><p>Application service.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Api.IApplicationServiceWeb.html#MAT_Atlas_Automation_Api_IApplicationServiceWeb_GetVersion">IApplicationServiceWeb.GetVersion()</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Api.IApplicationServiceWeb.html#MAT_Atlas_Automation_Api_IApplicationServiceWeb_LoadFileSessionEx_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_System_Int64_">IApplicationServiceWeb.LoadFileSessionEx(ObjectId, String, Int64)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Api.IApplicationServiceWeb.html#MAT_Atlas_Automation_Api_IApplicationServiceWeb_LoadFileSessions_MAT_Atlas_Automation_Api_Models_ObjectId_System_String___">IApplicationServiceWeb.LoadFileSessions(ObjectId, String[])</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Api.IApplicationServiceWeb.html#MAT_Atlas_Automation_Api_IApplicationServiceWeb_LoadServiceSession_MAT_Atlas_Automation_Api_Models_ObjectId_MAT_Atlas_Automation_Api_Models_ObjectId_MAT_Atlas_Automation_Api_Models_ObjectId_">IApplicationServiceWeb.LoadServiceSession(ObjectId, ObjectId, ObjectId)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Api.IApplicationServiceWeb.html#MAT_Atlas_Automation_Api_IApplicationServiceWeb_LoadSqlRaceSessions_MAT_Atlas_Automation_Api_Models_ObjectId_System_String___System_String___">IApplicationServiceWeb.LoadSqlRaceSessions(ObjectId, String[], String[])</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Api.IApplicationServiceWeb.html#MAT_Atlas_Automation_Api_IApplicationServiceWeb_RemoveSession_MAT_Atlas_Automation_Api_Models_SessionId_">IApplicationServiceWeb.RemoveSession(SessionId)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Api.IApplicationServiceWeb.html#MAT_Atlas_Automation_Api_IApplicationServiceWeb_SetCompareAutoFitLaps_System_Boolean_">IApplicationServiceWeb.SetCompareAutoFitLaps(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Api.IApplicationServiceWeb.html#MAT_Atlas_Automation_Api_IApplicationServiceWeb_SetCompareAutoFitLimit_System_Double_">IApplicationServiceWeb.SetCompareAutoFitLimit(Double)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Api.html">MAT.Atlas.Automation.Api</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Api.dll</h6>
+  <h5 id="MAT_Atlas_Automation_Api_IApplicationService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AutomationService(&quot;Application&quot;)]
+public interface IApplicationService : IApplicationServiceWeb, IAutomationService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_IApplicationService_Connect_" data-uid="MAT.Atlas.Automation.Api.IApplicationService.Connect*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_IApplicationService_Connect_System_String_" data-uid="MAT.Atlas.Automation.Api.IApplicationService.Connect(System.String)">Connect(String)</h4>
+  <div class="markdown level1 summary"><p>Connect a client to the application service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Connect(string clientName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">clientName</span></td>
+        <td><p>Name of client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_IApplicationService_Disconnect_" data-uid="MAT.Atlas.Automation.Api.IApplicationService.Disconnect*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_IApplicationService_Disconnect" data-uid="MAT.Atlas.Automation.Api.IApplicationService.Disconnect">Disconnect()</h4>
+  <div class="markdown level1 summary"><p>Disconnect a client from the application service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Disconnect()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_IApplicationService_ShowMessage_" data-uid="MAT.Atlas.Automation.Api.IApplicationService.ShowMessage*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_IApplicationService_ShowMessage_System_String_" data-uid="MAT.Atlas.Automation.Api.IApplicationService.ShowMessage(System.String)">ShowMessage(String)</h4>
+  <div class="markdown level1 summary"><p>Send text message to other clients.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ShowMessage(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Text message to send.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Automation_Api_IApplicationService_ShowMessage_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For testing purposes only.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

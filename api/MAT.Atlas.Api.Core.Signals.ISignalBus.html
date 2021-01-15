@@ -1,0 +1,723 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISignalBus
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISignalBus
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus">
+  
+  
+  <h1 id="MAT_Atlas_Api_Core_Signals_ISignalBus" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus" class="text-break">Interface ISignalBus
+  </h1>
+  <div class="markdown level0 summary"><p>Defines a signal bus for application-wide communication.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.IDisposable.Dispose()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Api.Core.Signals.html">MAT.Atlas.Api.Core.Signals</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Api.Core.dll</h6>
+  <h5 id="MAT_Atlas_Api_Core_Signals_ISignalBus_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISignalBus : IDisposable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_Signals_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Signals*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_Signals" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Signals">Signals</h4>
+  <div class="markdown level1 summary"><p>Gets the signals.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IObservable&lt;ISignal&gt; Signals { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IObservable</span>&lt;<a class="xref" href="MAT.Atlas.Api.Core.Signals.ISignal.html">ISignal</a>&gt;</td>
+        <td><p>The signals.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_UiScheduler_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.UiScheduler*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_UiScheduler" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.UiScheduler">UiScheduler</h4>
+  <div class="markdown level1 summary"><p>Gets the UI scheduler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScheduler UiScheduler { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reactive.Concurrency.IScheduler</span></td>
+        <td><p>The UI sh scheduler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_Send_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Send*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_Send__1___0_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Send``1(``0)">Send&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Sends the specified signal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Send&lt;T&gt;(T signal)
+    where T : ISignal</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">signal</span></td>
+        <td><p>The signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_SendAsync_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.SendAsync*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_SendAsync__1___0_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.SendAsync``1(``0)">SendAsync&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Sends the specified signal asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SendAsync&lt;T&gt;(T signal)
+    where T : ISignal</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">signal</span></td>
+        <td><p>The signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe__1_System_Action___0__" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe``1(System.Action{``0})">Subscribe&lt;T&gt;(Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Subscribes the specified action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisposable Subscribe&lt;T&gt;(Action&lt;T&gt; action)
+    where T : ISignal</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p>IDisposable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe__1_System_Action___0__System_Predicate___0__" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe``1(System.Action{``0},System.Predicate{``0})">Subscribe&lt;T&gt;(Action&lt;T&gt;, Predicate&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Subscribes the specified action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisposable Subscribe&lt;T&gt;(Action&lt;T&gt; action, Predicate&lt;T&gt; filter)
+    where T : ISignal</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>The filter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p>IDisposable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe__1_System_Action___0__System_Predicate___0__System_Reactive_Concurrency_IScheduler_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe``1(System.Action{``0},System.Predicate{``0},System.Reactive.Concurrency.IScheduler)">Subscribe&lt;T&gt;(Action&lt;T&gt;, Predicate&lt;T&gt;, IScheduler)</h4>
+  <div class="markdown level1 summary"><p>Subscribes the specified action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisposable Subscribe&lt;T&gt;(Action&lt;T&gt; action, Predicate&lt;T&gt; filter, IScheduler observeOnScheduler)
+    where T : ISignal</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>The filter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reactive.Concurrency.IScheduler</span></td>
+        <td><span class="parametername">observeOnScheduler</span></td>
+        <td><p>The observe on scheduler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p>IDisposable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe__1_System_Action___0__System_Predicate___0__System_Reactive_Concurrency_IScheduler_System_Reactive_Concurrency_IScheduler_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe``1(System.Action{``0},System.Predicate{``0},System.Reactive.Concurrency.IScheduler,System.Reactive.Concurrency.IScheduler)">Subscribe&lt;T&gt;(Action&lt;T&gt;, Predicate&lt;T&gt;, IScheduler, IScheduler)</h4>
+  <div class="markdown level1 summary"><p>Subscribes the specified action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisposable Subscribe&lt;T&gt;(Action&lt;T&gt; action, Predicate&lt;T&gt; filter, IScheduler observeOnScheduler, IScheduler subscribeOnScheduler)
+    where T : ISignal</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>The filter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reactive.Concurrency.IScheduler</span></td>
+        <td><span class="parametername">observeOnScheduler</span></td>
+        <td><p>The observe on scheduler.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reactive.Concurrency.IScheduler</span></td>
+        <td><span class="parametername">subscribeOnScheduler</span></td>
+        <td><p>The subscribe on scheduler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p>IDisposable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe__1_System_Action___0__System_Reactive_Concurrency_IScheduler_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe``1(System.Action{``0},System.Reactive.Concurrency.IScheduler)">Subscribe&lt;T&gt;(Action&lt;T&gt;, IScheduler)</h4>
+  <div class="markdown level1 summary"><p>Subscribes the specified action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisposable Subscribe&lt;T&gt;(Action&lt;T&gt; action, IScheduler observeOnScheduler)
+    where T : ISignal</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reactive.Concurrency.IScheduler</span></td>
+        <td><span class="parametername">observeOnScheduler</span></td>
+        <td><p>The observe on scheduler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p>IDisposable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Signals_ISignalBus_Subscribe__1_System_Action___0__System_Reactive_Concurrency_IScheduler_System_Reactive_Concurrency_IScheduler_" data-uid="MAT.Atlas.Api.Core.Signals.ISignalBus.Subscribe``1(System.Action{``0},System.Reactive.Concurrency.IScheduler,System.Reactive.Concurrency.IScheduler)">Subscribe&lt;T&gt;(Action&lt;T&gt;, IScheduler, IScheduler)</h4>
+  <div class="markdown level1 summary"><p>Subscribes the specified action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisposable Subscribe&lt;T&gt;(Action&lt;T&gt; action, IScheduler observeOnScheduler, IScheduler subscribeOnScheduler)
+    where T : ISignal</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reactive.Concurrency.IScheduler</span></td>
+        <td><span class="parametername">observeOnScheduler</span></td>
+        <td><p>The observe on scheduler.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reactive.Concurrency.IScheduler</span></td>
+        <td><span class="parametername">subscribeOnScheduler</span></td>
+        <td><p>The subscribe on scheduler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p>IDisposable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the signal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><span class="xref">System.IDisposable</span></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

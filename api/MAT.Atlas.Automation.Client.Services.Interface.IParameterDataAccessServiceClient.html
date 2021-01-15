@@ -1,0 +1,1032 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IParameterDataAccessServiceClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IParameterDataAccessServiceClient
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient">
+  
+  
+  <h1 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient" class="text-break">Interface IParameterDataAccessServiceClient
+  </h1>
+  <div class="markdown level0 summary"><p>Parameter data access service client.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.html">MAT.Atlas.Automation.Client.Services.Interface</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Client.dll</h6>
+  <h5 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(true)]
+[Guid(&quot;0D6F9A88-A19D-4C0E-9A83-EA1F78879D4F&quot;)]
+public interface IParameterDataAccessServiceClient</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetDataStatistics_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetDataStatistics*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetDataStatistics_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_MAT_Atlas_Automation_Api_Enums_StatisticOption_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)">GetDataStatistics(SessionId, String, Int64, Int64, StatisticOption)</h4>
+  <div class="markdown level1 summary"><p>Get statistics for a parameter over a specified time range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+StatisticsData GetDataStatistics(SessionId sessionId, string parameterIdentifier, long startTime, long duration, StatisticOption statisticOptions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>Start of time range (nanoseconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Length of time range (nanoseconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.StatisticOption.html">StatisticOption</a></td>
+        <td><span class="parametername">statisticOptions</span></td>
+        <td><p>What statistics to calculate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.StatisticsData.html">StatisticsData</a></td>
+        <td><p>Requested statistics.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetDataStatisticsVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetDataStatisticsVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetDataStatisticsVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_System_Double_MAT_Atlas_Automation_Api_Enums_StatisticOption_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double,MAT.Atlas.Automation.Api.Enums.StatisticOption)">GetDataStatisticsVba(SessionId, String, Double, Double, StatisticOption)</h4>
+  <div class="markdown level1 summary"><p>Get statistics for a parameter over a specified time range for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">StatisticsData GetDataStatisticsVba(SessionId sessionId, string parameterIdentifier, double startTime, double duration, StatisticOption statisticOptions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.StatisticOption.html">StatisticOption</a></td>
+        <td><span class="parametername">statisticOptions</span></td>
+        <td><p>What statistics to calculate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.StatisticsData.html">StatisticsData</a></td>
+        <td><p>Requested statistics.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextData_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextData*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextData_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_MAT_Atlas_Automation_Api_Enums_SampleMode_System_Boolean_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextData(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,MAT.Atlas.Automation.Api.Enums.SampleMode,System.Boolean)">GetNextData(SessionId, String, Int64, SampleMode, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get next data (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) with fixed increment (sample increment set via
+<a class="xref" href="MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_SetSampleIncrement_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">SetSampleIncrement(SessionId, String, Int64)</a>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+ParameterValues GetNextData(SessionId sessionId, string parameterIdentifier, long numberOfSamples, SampleMode sampleMode, bool interpolate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">numberOfSamples</span></td>
+        <td><p>Maximum number of data values to return.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.SampleMode.html">SampleMode</a></td>
+        <td><span class="parametername">sampleMode</span></td>
+        <td><p>Sampling mode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">interpolate</span></td>
+        <td><p>Whether to interpolate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Requested data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextDataVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextDataVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextDataVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int32_MAT_Atlas_Automation_Api_Enums_SampleMode_System_Boolean_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextDataVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int32,MAT.Atlas.Automation.Api.Enums.SampleMode,System.Boolean)">GetNextDataVba(SessionId, String, Int32, SampleMode, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get next data (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) with fixed increment (sample increment set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrement_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">SetSampleIncrement(SessionId, String, Int64)</a>) for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ParameterValues GetNextDataVba(SessionId sessionId, string parameterIdentifier, int numberOfSamples, SampleMode sampleMode, bool interpolate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numberOfSamples</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.SampleMode.html">SampleMode</a></td>
+        <td><span class="parametername">sampleMode</span></td>
+        <td><p>Sampling mode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">interpolate</span></td>
+        <td><p>Whether to interpolate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Requested data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamples_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamples*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamples_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamples(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">GetNextSamples(SessionId, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Get next samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) for a maximum number of samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+ParameterValues GetNextSamples(SessionId sessionId, string parameterIdentifier, long numberOfSamples)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">numberOfSamples</span></td>
+        <td><p>Maximum number of samples to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Requested samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesToTime_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesToTime*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesToTime_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesToTime(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">GetNextSamplesToTime(SessionId, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Get next samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) over a specified time range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+ParameterValues GetNextSamplesToTime(SessionId sessionId, string parameterIdentifier, long endTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endTime</span></td>
+        <td><p>End of time range (nanoseconds).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Requested samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesToTimeVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesToTimeVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesToTimeVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesToTimeVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double)">GetNextSamplesToTimeVba(SessionId, String, Double)</h4>
+  <div class="markdown level1 summary"><p>Get next samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) over a specified time range for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ParameterValues GetNextSamplesToTimeVba(SessionId sessionId, string parameterIdentifier, double endTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">endTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Requested samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int32_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int32)">GetNextSamplesVba(SessionId, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Get next samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) for a maximum number of samples for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ParameterValues GetNextSamplesVba(SessionId sessionId, string parameterIdentifier, int numberOfSamples)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numberOfSamples</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Requested samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetPreviousSamples_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetPreviousSamples*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetPreviousSamples_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetPreviousSamples(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">GetPreviousSamples(SessionId, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Get previous samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) for a maximum number of samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+ParameterValues GetPreviousSamples(SessionId sessionId, string parameterIdentifier, long numberOfSamples)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">numberOfSamples</span></td>
+        <td><p>Maximum number of samples to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Requested samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetPreviousSamplesVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetPreviousSamplesVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetPreviousSamplesVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int32_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetPreviousSamplesVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int32)">GetPreviousSamplesVba(SessionId, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Get previous samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) for a maximum number of samples for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ParameterValues GetPreviousSamplesVba(SessionId sessionId, string parameterIdentifier, int numberOfSamples)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numberOfSamples</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ParameterValues.html">ParameterValues</a></td>
+        <td><p>Requested samples.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetSamplesCountEstimate_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimate*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetSamplesCountEstimate_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimate(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64)">GetSamplesCountEstimate(SessionId, String, Int64, Int64)</h4>
+  <div class="markdown level1 summary"><p>Get estimated number of samples for a parameter over a specified time range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+long GetSamplesCountEstimate(SessionId sessionId, string parameterIdentifier, long startTime, long endTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>Start of time range (nanoseconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endTime</span></td>
+        <td><p>End of time range (nanoseconds).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Estimated sample count.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetSamplesCountEstimateVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimateVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetSamplesCountEstimateVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimateVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double)">GetSamplesCountEstimateVba(SessionId, String, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Get estimated number of samples for a parameter over a specified time range for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetSamplesCountEstimateVba(SessionId sessionId, string parameterIdentifier, double startTime, double endTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">endTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Estimated sample count.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.Goto*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.Goto(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">Goto(SessionId, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Set start of time range for subsequent data/sample requests.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+void Goto(SessionId sessionId, string parameterIdentifier, long time)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">time</span></td>
+        <td><p>Start of time range (nanoseconds) </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GotoVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GotoVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GotoVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GotoVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double)">GotoVba(SessionId, String, Double)</h4>
+  <div class="markdown level1 summary"><p>Set start of time range for subsequent data/sample requests for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GotoVba(SessionId sessionId, string parameterIdentifier, double time)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">time</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrement_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.SetSampleIncrement*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrement_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.SetSampleIncrement(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">SetSampleIncrement(SessionId, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Set sample increment for subsequent data requests.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+void SetSampleIncrement(SessionId sessionId, string parameterIdentifier, long sampleIncrement)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">sampleIncrement</span></td>
+        <td><p>Sample increment (nanoseconds).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrementVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.SetSampleIncrementVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrementVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.SetSampleIncrementVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double)">SetSampleIncrementVba(SessionId, String, Double)</h4>
+  <div class="markdown level1 summary"><p>Set sample increment for subsequent data requests for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetSampleIncrementVba(SessionId sessionId, string parameterIdentifier, double sampleIncrement)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sampleIncrement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

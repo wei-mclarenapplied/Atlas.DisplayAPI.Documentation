@@ -1,0 +1,1408 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISessionService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISessionService
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Api.ISessionService">
+  
+  
+  <h1 id="MAT_Atlas_Automation_Api_ISessionService" data-uid="MAT.Atlas.Automation.Api.ISessionService" class="text-break">Interface ISessionService
+  </h1>
+  <div class="markdown level0 summary"><p>Session service.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Api.html">MAT.Atlas.Automation.Api</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Api.dll</h6>
+  <h5 id="MAT_Atlas_Automation_Api_ISessionService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AutomationService(&quot;Session&quot;)]
+public interface ISessionService : IAutomationService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_AddDataToTransientParameter_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddDataToTransientParameter*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_AddDataToTransientParameter_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_System_Double___" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddDataToTransientParameter(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,System.Double[])">AddDataToTransientParameter(SessionId, String, Int64, Int64, Double[])</h4>
+  <div class="markdown level1 summary"><p>Add data to a transient parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddDataToTransientParameter(SessionId sessionId, string parameterIdentifier, long startTime, long interval, double[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a transient parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>Start of time range (nanoseconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>Data interval (nanoseconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>Data values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_AddOrUpdateSessionDetail_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddOrUpdateSessionDetail*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_AddOrUpdateSessionDetail_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_String_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddOrUpdateSessionDetail(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.String)">AddOrUpdateSessionDetail(SessionId, String, String)</h4>
+  <div class="markdown level1 summary"><p>Add or update a session detail.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionDetail AddOrUpdateSessionDetail(SessionId sessionId, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of session detail.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value of session detail.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionDetail.html">SessionDetail</a></td>
+        <td><p>Added or updated session detail properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_AddSessionEvent_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddSessionEvent*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_AddSessionEvent_MAT_Atlas_Automation_Api_Models_SessionId_System_Int64_System_String_System_String_MAT_Atlas_Automation_Api_Enums_EventPriority_System_Boolean_System_Double___" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddSessionEvent(MAT.Atlas.Automation.Api.Models.SessionId,System.Int64,System.String,System.String,MAT.Atlas.Automation.Api.Enums.EventPriority,System.Boolean,System.Double[])">AddSessionEvent(SessionId, Int64, String, String, EventPriority, Boolean, Double[])</h4>
+  <div class="markdown level1 summary"><p>Add session event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddSessionEvent(SessionId sessionId, long timestamp, string description, string groupName, EventPriority eventPriority, bool persist, double[] rawData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>Time stamp for session event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Description of session event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">groupName</span></td>
+        <td><p>Group name of session event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.EventPriority.html">EventPriority</a></td>
+        <td><span class="parametername">eventPriority</span></td>
+        <td><p>Event priority of session event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">persist</span></td>
+        <td><p>Whether to persist the event to the session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span>[]</td>
+        <td><span class="parametername">rawData</span></td>
+        <td><p>Raw data of the session event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_AddTimeDataToTransientParameter_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddTimeDataToTransientParameter*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_AddTimeDataToTransientParameter_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64___System_Double___" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddTimeDataToTransientParameter(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64[],System.Double[])">AddTimeDataToTransientParameter(SessionId, String, Int64[], Double[])</h4>
+  <div class="markdown level1 summary"><p>Add data to a transient parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTimeDataToTransientParameter(SessionId sessionId, string parameterIdentifier, long[] timestamps, double[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a transient parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span>[]</td>
+        <td><span class="parametername">timestamps</span></td>
+        <td><p>Data timestamps.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>Data values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Automation_Api_ISessionService_AddTimeDataToTransientParameter_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64___System_Double____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A time stamp per value must be provided.</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_AddTransientParameter_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddTransientParameter*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_AddTransientParameter_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_String_System_String_System_String___System_Double_System_Double_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AddTransientParameter(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.String,System.String,System.String[],System.Double,System.Double)">AddTransientParameter(SessionId, String, String, String, String[], Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Add transient parameter to session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Parameter AddTransientParameter(SessionId sessionId, string identifier, string name, string description, string[] groups, double minimum, double maximum)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>Transient parameter identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of transient parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Description of transient parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">groups</span></td>
+        <td><p>Groups to add transient parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">minimum</span></td>
+        <td><p>Minimum of transient parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">maximum</span></td>
+        <td><p>Maximum of transient parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Parameter.html">Parameter</a></td>
+        <td><p>Parameter properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_AppendSessions_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AppendSessions*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_AppendSessions_MAT_Atlas_Automation_Api_Models_SessionId_System_String___" data-uid="MAT.Atlas.Automation.Api.ISessionService.AppendSessions(MAT.Atlas.Automation.Api.Models.SessionId,System.String[])">AppendSessions(SessionId, String[])</h4>
+  <div class="markdown level1 summary"><p>Append sessions to session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AppendSessions(SessionId sessionId, string[] filePaths)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">filePaths</span></td>
+        <td><p>Sessions to append.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_AppendSessionsWithAssociates_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AppendSessionsWithAssociates*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_AppendSessionsWithAssociates_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_Int64___" data-uid="MAT.Atlas.Automation.Api.ISessionService.AppendSessionsWithAssociates(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.Int64[])">AppendSessionsWithAssociates(SessionId, String[], Int64[])</h4>
+  <div class="markdown level1 summary"><p>Append sessions and associated sessions to session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AppendSessionsWithAssociates(SessionId sessionId, string[] filePaths, long[] versions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">filePaths</span></td>
+        <td><p>Sessions to append.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span>[]</td>
+        <td><span class="parametername">versions</span></td>
+        <td><p>Associate session version numbers (pass 0 for defaults).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Automation_Api_ISessionService_AppendSessionsWithAssociates_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_Int64____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A version per file path must be provided.</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetCompositeSession_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetCompositeSession*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetCompositeSession_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetCompositeSession(MAT.Atlas.Automation.Api.Models.SessionId)">GetCompositeSession(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a composite session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeSession GetCompositeSession(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a composite session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.CompositeSession.html">CompositeSession</a></td>
+        <td><p>Composite session properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSession_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSession*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSession_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSession(MAT.Atlas.Automation.Api.Models.SessionId)">GetSession(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Session GetSession(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Session.html">Session</a></td>
+        <td><p>Session properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionDetail_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionDetail*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionDetail_MAT_Atlas_Automation_Api_Models_SessionId_System_String_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionDetail(MAT.Atlas.Automation.Api.Models.SessionId,System.String)">GetSessionDetail(SessionId, String)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a session detail.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionDetail GetSessionDetail(SessionId sessionId, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Unique name of a session detail.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionDetail.html">SessionDetail</a></td>
+        <td><p>Session detail properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionDetails_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionDetails*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionDetails_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionDetails(MAT.Atlas.Automation.Api.Models.SessionId)">GetSessionDetails(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of all session details associated with a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionDetail[] GetSessionDetails(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionDetail.html">SessionDetail</a>[]</td>
+        <td><p>Collection of session detail properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionEvent_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionEvent*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionEvent_MAT_Atlas_Automation_Api_Models_SessionId_System_Int32_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionEvent(MAT.Atlas.Automation.Api.Models.SessionId,System.Int32)">GetSessionEvent(SessionId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a session event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionEvent GetSessionEvent(SessionId sessionId, int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>Unique identifier of a session event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionEvent.html">SessionEvent</a></td>
+        <td><p>Session event properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionEvents_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionEvents*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionEvents_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionEvents(MAT.Atlas.Automation.Api.Models.SessionId)">GetSessionEvents(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of all session events associated with a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionEvent[] GetSessionEvents(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionEvent.html">SessionEvent</a>[]</td>
+        <td><p>Collection of session event properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionFastestLap_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionFastestLap*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionFastestLap_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionFastestLap(MAT.Atlas.Automation.Api.Models.SessionId)">GetSessionFastestLap(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the fastest lap of a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Lap GetSessionFastestLap(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Lap.html">Lap</a></td>
+        <td><p>Fastest lap properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionLapByNumber_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionLapByNumber*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionLapByNumber_MAT_Atlas_Automation_Api_Models_SessionId_System_Int16_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionLapByNumber(MAT.Atlas.Automation.Api.Models.SessionId,System.Int16)">GetSessionLapByNumber(SessionId, Int16)</h4>
+  <div class="markdown level1 summary"><p>Get a lap by number of a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Lap GetSessionLapByNumber(SessionId sessionId, short number)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>Number of lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Lap.html">Lap</a></td>
+        <td><p>Lap properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionLaps_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionLaps*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionLaps_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionLaps(MAT.Atlas.Automation.Api.Models.SessionId)">GetSessionLaps(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of all laps associated with a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Lap[] GetSessionLaps(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Lap.html">Lap</a>[]</td>
+        <td><p>Collection of lap properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameter_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameter*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameter_MAT_Atlas_Automation_Api_Models_SessionId_System_String_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameter(MAT.Atlas.Automation.Api.Models.SessionId,System.String)">GetSessionParameter(SessionId, String)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a session parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Parameter GetSessionParameter(SessionId sessionId, string parameterIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Parameter.html">Parameter</a></td>
+        <td><p>Parameter properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameterById_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameterById*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameterById_MAT_Atlas_Automation_Api_Models_SessionId_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameterById(MAT.Atlas.Automation.Api.Models.SessionId,MAT.Atlas.Automation.Api.Models.ObjectId)">GetSessionParameterById(SessionId, ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a session parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Parameter GetSessionParameterById(SessionId sessionId, ObjectId parameterInstanceIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">parameterInstanceIdentifier</span></td>
+        <td><p>Unique instance identifier of a parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Parameter.html">Parameter</a></td>
+        <td><p>Parameter properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameterByIndex_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameterByIndex*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameterByIndex_MAT_Atlas_Automation_Api_Models_SessionId_System_Int32_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameterByIndex(MAT.Atlas.Automation.Api.Models.SessionId,System.Int32)">GetSessionParameterByIndex(SessionId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a session parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Parameter GetSessionParameterByIndex(SessionId sessionId, int parameterIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">parameterIndex</span></td>
+        <td><p>Index of parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Parameter.html">Parameter</a></td>
+        <td><p>Parameter properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameterByIndex_MAT_Atlas_Automation_Api_Models_SessionId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Range between 0 and <a class="xref" href="MAT.Atlas.Automation.Api.ISessionService.html#MAT_Atlas_Automation_Api_ISessionService_GetSessionParameterCount_MAT_Atlas_Automation_Api_Models_SessionId_">GetSessionParameterCount(SessionId)</a> - 1.</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameterCount_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameterCount*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameterCount_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameterCount(MAT.Atlas.Automation.Api.Models.SessionId)">GetSessionParameterCount(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the number of parameters within a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetSessionParameterCount(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Session parameter count.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameters_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameters*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionParameters_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionParameters(MAT.Atlas.Automation.Api.Models.SessionId)">GetSessionParameters(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of all parameters associated with a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Parameter[] GetSessionParameters(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Parameter.html">Parameter</a>[]</td>
+        <td><p>Collection of session parameter properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessions_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessions*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessions_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessions(MAT.Atlas.Automation.Api.Models.SessionId)">GetSessions(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of all sessions associated with a composite session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Session[] GetSessions(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a composite session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Session.html">Session</a>[]</td>
+        <td><p>Collection of session properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_GetSessionTimeBase_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionTimeBase*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetSessionTimeBase_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetSessionTimeBase(MAT.Atlas.Automation.Api.Models.SessionId)">GetSessionTimeBase(SessionId)</h4>
+  <div class="markdown level1 summary"><p>Get the timebase properties of a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TimeBase GetSessionTimeBase(SessionId sessionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.TimeBase.html">TimeBase</a></td>
+        <td><p>Timebase properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_RemoveDataFromTransientParameter_" data-uid="MAT.Atlas.Automation.Api.ISessionService.RemoveDataFromTransientParameter*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_RemoveDataFromTransientParameter_MAT_Atlas_Automation_Api_Models_SessionId_System_String_" data-uid="MAT.Atlas.Automation.Api.ISessionService.RemoveDataFromTransientParameter(MAT.Atlas.Automation.Api.Models.SessionId,System.String)">RemoveDataFromTransientParameter(SessionId, String)</h4>
+  <div class="markdown level1 summary"><p>Remove the data associated with a transient parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveDataFromTransientParameter(SessionId sessionId, string parameterIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a transient parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_RemoveSessionDetail_" data-uid="MAT.Atlas.Automation.Api.ISessionService.RemoveSessionDetail*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_RemoveSessionDetail_MAT_Atlas_Automation_Api_Models_SessionId_System_String_" data-uid="MAT.Atlas.Automation.Api.ISessionService.RemoveSessionDetail(MAT.Atlas.Automation.Api.Models.SessionId,System.String)">RemoveSessionDetail(SessionId, String)</h4>
+  <div class="markdown level1 summary"><p>Remove a session detail from a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveSessionDetail(SessionId sessionId, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Unique name of a session detail.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_RemoveTransientParameter_" data-uid="MAT.Atlas.Automation.Api.ISessionService.RemoveTransientParameter*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_RemoveTransientParameter_MAT_Atlas_Automation_Api_Models_SessionId_System_String_" data-uid="MAT.Atlas.Automation.Api.ISessionService.RemoveTransientParameter(MAT.Atlas.Automation.Api.Models.SessionId,System.String)">RemoveTransientParameter(SessionId, String)</h4>
+  <div class="markdown level1 summary"><p>Remove a transient parameter from a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveTransientParameter(SessionId sessionId, string parameterIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a transient parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ISessionService_SetCompareOffset_" data-uid="MAT.Atlas.Automation.Api.ISessionService.SetCompareOffset*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_SetCompareOffset_MAT_Atlas_Automation_Api_Models_SessionId_System_Double_" data-uid="MAT.Atlas.Automation.Api.ISessionService.SetCompareOffset(MAT.Atlas.Automation.Api.Models.SessionId,System.Double)">SetCompareOffset(SessionId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the compare offset value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCompareOffset(SessionId compositeSessionId, double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">compositeSessionId</span></td>
+        <td><p>Unique identifier of secondary composite session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

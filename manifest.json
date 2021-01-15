@@ -1,0 +1,4623 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/wei.li/source/repos/MAT.OCS.Atlas10/MAT.Atlas.Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.AtlasColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.AtlasColor.html",
+          "hash": "DP2D5HB+HypNmmrqwDazdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.AtlasColors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.AtlasColors.html",
+          "hash": "4n4HvT6mIoU+F5a161IwoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Autofac.ContainerBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Autofac.ContainerBuilderExtensions.html",
+          "hash": "YRspZZjsI4y2C9xtooCkXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Autofac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Autofac.html",
+          "hash": "F37n+6LBA0pnQX4UduRK3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Data.TimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Data.TimeRange.html",
+          "hash": "gwTQVwTGRmH0yFBn9ZWcUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Data.html",
+          "hash": "j6BeYbr33xI8Y/ciroVn5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.html",
+          "hash": "MDfoGALV4fDjbU30uZ/xBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Extensions.html",
+          "hash": "GouQ36r9VI/ncefH2EqV8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspChildControlTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspChildControlTypeAttribute.html",
+          "hash": "AnFX/HZM8kxC3ODiKAoO8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspDataFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspDataFieldAttribute.html",
+          "hash": "AT2Casc0tjRFu6K3TPq0EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspDataFieldsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspDataFieldsAttribute.html",
+          "hash": "BZUfHgD0AxEm4bN7YKOmAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMethodPropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMethodPropertyAttribute.html",
+          "hash": "MA8r1xhmYvEyCYB7RfykTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcActionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcActionAttribute.html",
+          "hash": "ddnm5U7i7kQcGOyzvlJn2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcActionSelectorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcActionSelectorAttribute.html",
+          "hash": "BIDO6b7k6HaQnVNOpGWkbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcAreaAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcAreaAttribute.html",
+          "hash": "uOEnepNCUD9fqIwAKF4n2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcAreaMasterLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcAreaMasterLocationFormatAttribute.html",
+          "hash": "bHU+Qo6jB5UHfbI5qT8pAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcAreaPartialViewLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcAreaPartialViewLocationFormatAttribute.html",
+          "hash": "HPjSXnHY7NliGV0M6sqfNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcAreaViewLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcAreaViewLocationFormatAttribute.html",
+          "hash": "6cLeH5KVZjuXjLmFiNIzlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcControllerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcControllerAttribute.html",
+          "hash": "RQ9nBpJDjv99JNI0+QITDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcDisplayTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcDisplayTemplateAttribute.html",
+          "hash": "/nPs+rrBAPYzczF+CHeKMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcEditorTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcEditorTemplateAttribute.html",
+          "hash": "9QoLj7EHsRXRceEHaoIPYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcMasterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcMasterAttribute.html",
+          "hash": "Z9URJGYmTatrc+V5FwxjdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcMasterLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcMasterLocationFormatAttribute.html",
+          "hash": "2uocZmwz9KCtEZUHqnTp/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcModelTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcModelTypeAttribute.html",
+          "hash": "Buig/vvfIyG5HcPTd4xGrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcPartialViewAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcPartialViewAttribute.html",
+          "hash": "b+FTKyz/co3U/sPe3YtqsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcPartialViewLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcPartialViewLocationFormatAttribute.html",
+          "hash": "hqYx5z1TiGsfwubJDmTesA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcSuppressViewErrorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcSuppressViewErrorAttribute.html",
+          "hash": "5nFcDJOC+c2JTF22ioODBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcTemplateAttribute.html",
+          "hash": "F+fZgQwGsENo+kUP2XWKvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcViewAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcViewAttribute.html",
+          "hash": "HqdO2qwKL60419tiaxjuIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcViewComponentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcViewComponentAttribute.html",
+          "hash": "i05A4AvtTeKSIrIciu9iSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcViewComponentViewAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcViewComponentViewAttribute.html",
+          "hash": "76tUzQ0gqAOOdSPAiD+/qA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcViewLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspMvcViewLocationFormatAttribute.html",
+          "hash": "EEECwfsbwB3FKDY4ZKI3/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspRequiredAttributeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspRequiredAttributeAttribute.html",
+          "hash": "JTMEqiNns3pPY5JoPkXFXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspTypePropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AspTypePropertyAttribute.html",
+          "hash": "H5rKVcpqq+sAItaxIyiyGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AssertionConditionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AssertionConditionAttribute.html",
+          "hash": "K1PabknHULEi52FQhUx3vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AssertionConditionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AssertionConditionType.html",
+          "hash": "TsN/+l34YYqgPYgbFBWtCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.AssertionMethodAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.AssertionMethodAttribute.html",
+          "hash": "mVtYZDlov+o61fFiGuChFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.BaseTypeRequiredAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.BaseTypeRequiredAttribute.html",
+          "hash": "RT47qwgp4uVAsjVz6+9f9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.BindableBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.BindableBase.html",
+          "hash": "Ac7/myqZPJh6o+7H2kTH4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.CanBeNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.CanBeNullAttribute.html",
+          "hash": "QnoUQ4U2bXR5VZwsO4gP0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.CannotApplyEqualityOperatorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.CannotApplyEqualityOperatorAttribute.html",
+          "hash": "d/ZZC8LMizS4oypyZDNtcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.CollectionAccessAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.CollectionAccessAttribute.html",
+          "hash": "3z+Nwb65ImT47GZ/IqsI4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.CollectionAccessType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.CollectionAccessType.html",
+          "hash": "ag8dtQx3RjNt/m8iUTQWfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.ContractAnnotationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.ContractAnnotationAttribute.html",
+          "hash": "hId5u20F7NBwO0rvV/p2QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.html",
+          "hash": "krptlJIv3tJ9TKU7jKl+Qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.HtmlAttributeValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.HtmlAttributeValueAttribute.html",
+          "hash": "1YDjG2+mKDVKFGNa03cClw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.HtmlElementAttributesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.HtmlElementAttributesAttribute.html",
+          "hash": "5FT7kNRGjCbbG7SLAe2qlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.ImplicitUseKindFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.ImplicitUseKindFlags.html",
+          "hash": "HcLZdvkUjQolf/gsHt87Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.ImplicitUseTargetFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.ImplicitUseTargetFlags.html",
+          "hash": "No0pd3YE0r2bPHkK4bf2qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.InstantHandleAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.InstantHandleAttribute.html",
+          "hash": "Nf1v+UvUlBEqfuu+Cx/qdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.InvokerParameterNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.InvokerParameterNameAttribute.html",
+          "hash": "nRUGE0eKd+eTFUiC9D/0jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.ItemCanBeNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.ItemCanBeNullAttribute.html",
+          "hash": "MV+/LwkbsnXKqI4SKko0vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.ItemNotNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.ItemNotNullAttribute.html",
+          "hash": "ZXuR3d6whY72L75iXT7g1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.LinqTunnelAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.LinqTunnelAttribute.html",
+          "hash": "gV01a6gnVcdZ06HAL5rIkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.LocalizationRequiredAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.LocalizationRequiredAttribute.html",
+          "hash": "hbIpEgKgBtte30nG82ZiCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.MacroAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.MacroAttribute.html",
+          "hash": "6FMTeg9/6EmE1UzHxmm7QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.MeansImplicitUseAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.MeansImplicitUseAttribute.html",
+          "hash": "kusAqiIvbGluK7QgtOr/wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.MustUseReturnValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.MustUseReturnValueAttribute.html",
+          "hash": "nUfRcqDr0XIcev1uu2krQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.NoEnumerationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.NoEnumerationAttribute.html",
+          "hash": "NmIcBwYeZ7vxOlRx7+kHIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.NoReorderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.NoReorderAttribute.html",
+          "hash": "fZcz7aOCzFla4d6OAaLWtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.NotNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.NotNullAttribute.html",
+          "hash": "squL39+AE5N0xA4DEHO48Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.NotifyPropertyChangedInvocatorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.NotifyPropertyChangedInvocatorAttribute.html",
+          "hash": "SA6hgv2s4cfyyI7uixS8og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.PathReferenceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.PathReferenceAttribute.html",
+          "hash": "ORTCQGnbd9WyKIZeW7C2JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.ProvidesContextAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.ProvidesContextAttribute.html",
+          "hash": "xD2RK19ynA6HbctZiGWJwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.PublicAPIAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.PublicAPIAttribute.html",
+          "hash": "tZJrvip8x3MaWAQqqAivVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.PureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.PureAttribute.html",
+          "hash": "9ziNn5hP0VTBYly3uR/ERg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorDirectiveAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorDirectiveAttribute.html",
+          "hash": "2259mC6z9E1U79TfSAtVww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorHelperCommonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorHelperCommonAttribute.html",
+          "hash": "kyj6Ydsh8GB97lt4rbnyNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorImportNamespaceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorImportNamespaceAttribute.html",
+          "hash": "yhY/8PAEC4SQqRpLzohG/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorInjectionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorInjectionAttribute.html",
+          "hash": "tR7QTUyrHoEqvkzevev2gA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorLayoutAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorLayoutAttribute.html",
+          "hash": "Umwxu9Q9d2bfvLuJqN4vYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorSectionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorSectionAttribute.html",
+          "hash": "h2GiOJMc6Sh2p7ecqWTByQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorWriteLiteralMethodAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorWriteLiteralMethodAttribute.html",
+          "hash": "2BzkdpXfjpDkr0lmgRGF7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorWriteMethodAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorWriteMethodAttribute.html",
+          "hash": "i9woeYXcpFDoVS97TWmFGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorWriteMethodParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RazorWriteMethodParameterAttribute.html",
+          "hash": "QxjDEk/+jk3Fam5Jh+gw2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.RegexPatternAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.RegexPatternAttribute.html",
+          "hash": "cCHxjsrOnwx02CcEVklH9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.SourceTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.SourceTemplateAttribute.html",
+          "hash": "BPS3ddOv0hFeNEwZcfWcUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.StringFormatMethodAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.StringFormatMethodAttribute.html",
+          "hash": "dVCc6wm3+abwTEXvGnr5KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.TerminatesProgramAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.TerminatesProgramAttribute.html",
+          "hash": "R1pEb2Nhz2oRm1zp8dL0Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.UsedImplicitlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.UsedImplicitlyAttribute.html",
+          "hash": "cmf3FT8d82nyLZSZISPmYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.ValueProviderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.ValueProviderAttribute.html",
+          "hash": "PsR0xS1sj7W60wFCvCYtpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.XamlItemBindingOfItemsControlAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.XamlItemBindingOfItemsControlAttribute.html",
+          "hash": "LWj/uDSUbQRSBblWhvAxug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.XamlItemsControlAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.XamlItemsControlAttribute.html",
+          "hash": "nsh7r+KeasXfe09rGJSF1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Presentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Presentation.html",
+          "hash": "hTs76BdLdPbZoH2IBGKAqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Sessions.CompositeSessionContainerIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Sessions.CompositeSessionContainerIdentifier.html",
+          "hash": "07c8KYvNxJjYlh6pcZYLyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Sessions.CompositeSessionIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Sessions.CompositeSessionIdentifier.html",
+          "hash": "Gf8RyLVZ/9rxk3UQ8nYgGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Sessions.SessionIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Sessions.SessionIdentifier.html",
+          "hash": "HYioLpWOt0gcTju2e+8jpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Sessions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Sessions.html",
+          "hash": "aldlOuXPREf1UVS5kDiEhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.ISignal-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.ISignal-1.html",
+          "hash": "NHo0sM/uDArnDMEa4omMVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.ISignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.ISignal.html",
+          "hash": "WJRUWAtqmDpGCWR2b1hRYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.ISignalBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.ISignalBus.html",
+          "hash": "648uw8eGj/AUvyXcrZMrpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.ISourceSignal-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.ISourceSignal-1.html",
+          "hash": "rNy7pwQaPPufpV/o23SbPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.ISourceSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.ISourceSignal.html",
+          "hash": "X8Sf0jsExTTGhFC4kcyImg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.SignalBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.SignalBase-1.html",
+          "hash": "gIRzc3f6AsjvI26Q892YEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.SignalBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.SignalBase.html",
+          "hash": "IiA8Uhn8oUvDHT13J/v5NA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.SourceSignalBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.SourceSignalBase-1.html",
+          "hash": "f9xlizEZfd5HiY1PUN1Hhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.SourceSignalBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.SourceSignalBase.html",
+          "hash": "lbttvPl+jzJo4SCfetRIBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.Signals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.Signals.html",
+          "hash": "NO67xeGpQY1dzQiLwXoBHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.System.DisposableBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.System.DisposableBase.html",
+          "hash": "TtYFG2eaYrnpzp7oEEuF8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.System.INotifyOfDisposal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.System.INotifyOfDisposal.html",
+          "hash": "GbSWmmcN9ZyCHVigDaYm1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.System.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.System.html",
+          "hash": "Xh8aKX0TOzw56aIJI3GcbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.TypeWrapperBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html",
+          "hash": "LjOAUe0qsyQSQl5zBxwyFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html",
+          "hash": "/3QAjjopGc//fUtaf66QCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Api.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Api.Core.html",
+          "hash": "ec7XGCAWM/mcA8ODvRFYsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.AutomationServiceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.AutomationServiceAttribute.html",
+          "hash": "PH641NUGuekN4/ASPg3dBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html",
+          "hash": "+p/gqjhhY0x4VRrs86qlGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Binding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Binding.html",
+          "hash": "a22Yz92as57szU/8f8gHuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Constants.AutomationServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html",
+          "hash": "3x/aQ1SkAwA9IKcK1Zct6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Constants.FaultReasons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html",
+          "hash": "rwfG0QqjuomRJghrlTT3Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Constants.WellKnownSessionDetailNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Constants.WellKnownSessionDetailNames.html",
+          "hash": "nGj9OSoB9zk8JwhVfWLcUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Constants.html",
+          "hash": "3Ldw+tlOZXAPgCuyYVj3/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.CompareModeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.CompareModeType.html",
+          "hash": "Azu/fW1/vALP0siztpHcTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.ConnectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.ConnectionState.html",
+          "hash": "tTh0fl9lzkYTvlaDAsPSQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.DataStatusType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.DataStatusType.html",
+          "hash": "Vquq59QMswqw8yqXsELAtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.html",
+          "hash": "w//Bxos68sDfAY8i7hVt6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.EventPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.EventPriority.html",
+          "hash": "gSYZf6PYgUuolT41C2i1Tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.html",
+          "hash": "ouT6o8eY2Kb6SM+Orad8bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.PersistenceLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.PersistenceLevel.html",
+          "hash": "vBdNrzFW0aBdXHwjbzFDMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.RecorderState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.RecorderState.html",
+          "hash": "VkVyv9ER0Psmt8KeWk4neg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.SampleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.SampleMode.html",
+          "hash": "32nzH61rPYLuLYumE1pOFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.SessionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.SessionState.html",
+          "hash": "kahnLeXVfDAF1Lttvebueg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.StatisticOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.StatisticOption.html",
+          "hash": "gJPJieGR97G+9O+jKO1BDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.TriggerSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.TriggerSource.html",
+          "hash": "KsIzxw3YdQelIHo+RdPMZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.UpdateableState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.UpdateableState.html",
+          "hash": "Osyou0rbQxVFYbkqAcGgug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.WorkbookState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.WorkbookState.html",
+          "hash": "j0/44drbESy0cXvEt65qBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.html",
+          "hash": "DKr+IyutHgkrGejBsLPKjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.AddDisplayParameterFailedFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.AddDisplayParameterFailedFault.html",
+          "hash": "qUJLN0UHPIETqeU1DCFf7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.ApplicationServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.ApplicationServiceFault.html",
+          "hash": "XEjHT5r8X+wobs/RvInolQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.ConnectionServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.ConnectionServiceFault.html",
+          "hash": "s31TG892vjLfkV2fLe9MPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.DataSourceServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.DataSourceServiceFault.html",
+          "hash": "KR3BwGzZggyQjk18+2bR+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.DisplayServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.DisplayServiceFault.html",
+          "hash": "fKKvuGfgfHYwrtwuc8eM9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.FaultFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.FaultFactory.html",
+          "hash": "ynSv6x94WmHhoPn10lSU0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.InvalidArgumentFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.InvalidArgumentFault.html",
+          "hash": "+BODe5GinEtlCplEU5H4vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.NumericDisplayServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.NumericDisplayServiceFault.html",
+          "hash": "1DPSLCFbRD+SALPOGn8bTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.PageServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.PageServiceFault.html",
+          "hash": "TKfH1dQzKyH1iZFIru/+qQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.ParameterDataAccessServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.ParameterDataAccessServiceFault.html",
+          "hash": "FE1okdTBvSuVq0E2FRR0Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.ProfilingFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.ProfilingFault.html",
+          "hash": "TW5xYxksjjq994JykaMvmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.RecorderServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.RecorderServiceFault.html",
+          "hash": "zQ6UmPQnt2I8gjzdAzk3Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.RemoveDisplayParameterFailedFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.RemoveDisplayParameterFailedFault.html",
+          "hash": "cqrDuW8tSXEUI/i0g78o3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.SessionServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.SessionServiceFault.html",
+          "hash": "tGSjhJuOMYWHuvNIOmK0tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.SetServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.SetServiceFault.html",
+          "hash": "3LEubB4DsmcTSesZ7ElQ9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.SummaryDisplayServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.SummaryDisplayServiceFault.html",
+          "hash": "Ekc+92re8jS94C/1i3FFPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.TimeBaseServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.TimeBaseServiceFault.html",
+          "hash": "yzVxtgtjx6gLGkHDu62gjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.TracerServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.TracerServiceFault.html",
+          "hash": "Q8vTtZfyKC5fgFlw0v2oqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.UpdateLoopStatisticsServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.UpdateLoopStatisticsServiceFault.html",
+          "hash": "aEZ1LMowwPYKVaPkjp5CqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.WaveformDisplayServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.WaveformDisplayServiceFault.html",
+          "hash": "3n+LvDvTgC5hXTaCYOv3vQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.WorkbookServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.WorkbookServiceFault.html",
+          "hash": "KxO3zceBp/DFWs0KZrNDGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.html",
+          "hash": "Ben9bOk5hUVGZ+i1/fpjqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IApplicationCallbackService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IApplicationCallbackService.html",
+          "hash": "tc4v07NjGLrm6HW8AELiQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IApplicationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IApplicationService.html",
+          "hash": "PosMItfRUOtcpxfAEs4xAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IApplicationServiceWeb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IApplicationServiceWeb.html",
+          "hash": "t8Pb/SzPTXN3bt8kWjDnEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IAutomationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IAutomationService.html",
+          "hash": "d5sBSaAEk4RQFmm5OItnyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IAutomationServiceProvider-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IAutomationServiceProvider-1.html",
+          "hash": "yOZoIZ/JQUn3omkxgcnjAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IDataSourceService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IDataSourceService.html",
+          "hash": "DIxiYmpzcAWvFkB4DClRxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IDiagnosticsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IDiagnosticsService.html",
+          "hash": "hvOuDO3PFvmAC98wYwlmuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IDisplayService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IDisplayService.html",
+          "hash": "wdacJPQ0MA0CVBVSb0xeVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.INumericDisplayService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.INumericDisplayService.html",
+          "hash": "Z4SxZpRckSRK3GgTK4G5Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IPageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IPageService.html",
+          "hash": "9g1+Z0Jz7/U782ywJUQwJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IParameterDataAccessService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IParameterDataAccessService.html",
+          "hash": "9ywjNmVdwveclIHu/5LM1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IRecorderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IRecorderService.html",
+          "hash": "Qufx48UyTxcCI+MfiJshmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.ISessionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.ISessionService.html",
+          "hash": "/DKJUmohOGhNOhNP+VCj1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.ISetService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.ISetService.html",
+          "hash": "Bb2TRaC7W387XJUALZM1JQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.ISummaryDisplayService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.ISummaryDisplayService.html",
+          "hash": "gswQmYP7+15oTVTipdkbZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.ITimeBaseCallbackService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.ITimeBaseCallbackService.html",
+          "hash": "ztEMG3TrNnVQzoIw4KjLTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.ITimeBaseService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.ITimeBaseService.html",
+          "hash": "wDmZFlm520sCV244ISSmcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.html",
+          "hash": "kvPTQ5YJ2p3oWS/SmqmR4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.ITracerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.ITracerService.html",
+          "hash": "CaOP1tlG5Jqo2waNP+hjXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IUpdateLoopStatisticsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IUpdateLoopStatisticsService.html",
+          "hash": "lSTDIYqF9mFbpS4YyaRcSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IWaveformDisplayService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IWaveformDisplayService.html",
+          "hash": "MK3strhbvfXgGVtkZiAlIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IWorkbookService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IWorkbookService.html",
+          "hash": "4vnO8hOoIXYUbFlc40v8jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.BindingSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.BindingSetting.html",
+          "hash": "JBpNm/xxd2VP1fU4XRiD0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Color.html",
+          "hash": "TOzWCy0gA5qYqk1jtC66hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.CompareMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.CompareMode.html",
+          "hash": "sr2n9bJuJwfAbzGbV2Hlyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.CompositeSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.CompositeSession.html",
+          "hash": "jJzhTl+sYyRV98mCFQvsPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.DiagnosticProfilingSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.DiagnosticProfilingSettings.html",
+          "hash": "7NYOuciCYtSNGGBFzpPuaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Display.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Display.html",
+          "hash": "aXPEvh6kNtHN58ZZvBkp9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.DisplayParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.DisplayParameter.html",
+          "hash": "qfsWaSPpGnjEFjVbQjuRrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.html",
+          "hash": "hfpmMbyLNt5oXTtpt0LznQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IColor.html",
+          "hash": "Y9h6w6y1QSgIhlVQkNaROA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ICompareMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ICompareMode.html",
+          "hash": "SyR2n1WovuqUj41t7EUrew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ICompositeSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ICompositeSession.html",
+          "hash": "QBvtdmFgGUZ8bCFUg8CDqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IDisplay.html",
+          "hash": "W1RaB7wbnZ0Un2vlN400sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IDisplayParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IDisplayParameter.html",
+          "hash": "Tc5S4bZePy/Yvy7tixVO6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ILap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ILap.html",
+          "hash": "+1JX5doEeUROwb3cMCi8kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.INewLap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.INewLap.html",
+          "hash": "jYxaeoIczyLOU7Hxxuq5oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.INewSessionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.INewSessionEvent.html",
+          "hash": "VGQ4+JZUr4UthuCRTZ8WFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.INumericDisplayParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.INumericDisplayParameter.html",
+          "hash": "l5UgS8nZ7+SNJ+J07fEn8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IObjectId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IObjectId.html",
+          "hash": "Y1XGk1wOwYMigAwNFe4eDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IPage.html",
+          "hash": "pR38Hnm5s3uYNfRuszqnEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IParameter.html",
+          "hash": "2lBGFLG+lP9U/rH9oxK+ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IParameterValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IParameterValues.html",
+          "hash": "o1z9ydx9zcKRW6j69EvJuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.html",
+          "hash": "KeL/Nj5/oSC6AZRO1xP/QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IServiceConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IServiceConnection.html",
+          "hash": "OHVsmxb5Ad/HbYomlR+Ksw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISession.html",
+          "hash": "NdoJ+pO81EuZyunYa5F/Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionDetail.html",
+          "hash": "7LmvZI8Yk0lAF7Q3fcJHRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionEvent.html",
+          "hash": "8fxUJbzaAMnjFD1akw/GVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionId.html",
+          "hash": "0W7/ajnI49YhoXKtg8hHEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionLoaded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionLoaded.html",
+          "hash": "gAyZ0IElUAiM9g3EVDePIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionRemoved.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionRemoved.html",
+          "hash": "tK1ojaWzV+GaLSzia+XaaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISet.html",
+          "hash": "oDKikpYs509/VOh3xSvYyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IStatisticsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IStatisticsData.html",
+          "hash": "D4C5USMdBMkJ4iHJbtZ2Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ITelemetryMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ITelemetryMapping.html",
+          "hash": "Z7UAiFcybdPRzqiLFdPnrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ITimeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ITimeBase.html",
+          "hash": "BO+WHYrutgc5O2PyLPB6wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.html",
+          "hash": "Ra/QyK+Wdm5PB4+nSFf6HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IWorkbook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IWorkbook.html",
+          "hash": "76MyrUmh0cgKDjd0o7H0Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.html",
+          "hash": "QFq01Qs1WL7mlKHPgfYniA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Lap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Lap.html",
+          "hash": "uhFZiJ2gJil/sczubAl0kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.ModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.ModelBase.html",
+          "hash": "0AnPLan9oIp2fNV81rvmvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.NewLap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.NewLap.html",
+          "hash": "Gwrh+P2Ug1PJakVXFxNtMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.NewSessionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.NewSessionEvent.html",
+          "hash": "DFKDqQGLIZlqxWeh4ItFkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.html",
+          "hash": "HEmLNK6+t2g1tNd3jCwx9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.ObjectId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.ObjectId.html",
+          "hash": "ZgRUPmGTpTom8DmXG9QYsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Page.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Page.html",
+          "hash": "8uBzNUbgoq1SvLpoMBMB0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Parameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Parameter.html",
+          "hash": "uU4CaB18WvFQu/bm04gFTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.ParameterBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.ParameterBase.html",
+          "hash": "xEJl3Y2H5HQmKor47gILDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.ParameterValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.ParameterValues.html",
+          "hash": "rQN/uwfi2krnZSNdepTjMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Recorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Recorder.html",
+          "hash": "QbB+eoAyk95aik7K1C8CyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.ServiceConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.ServiceConnection.html",
+          "hash": "2C8tKNXb4iUbQkb17io5Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Session.html",
+          "hash": "JNwKdlA17x1FWUQUa/Y5KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionBase.html",
+          "hash": "t4a2YUGphBNlVstGJzv3Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionDetail.html",
+          "hash": "NDAsR3QiQOf2i9JkyI10SA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionEvent.html",
+          "hash": "ywr6AmSKWtb7iS6gqQCb0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionId.html",
+          "hash": "ICWGTqwEryD5523z8FahnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionLoaded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionLoaded.html",
+          "hash": "/bLQBS4mk797eU/aDbKB/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionRemoved.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionRemoved.html",
+          "hash": "RA84++gLaYWXbA8CGtPfhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Set.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Set.html",
+          "hash": "9q5uLOU0J+NmwfCpyEJo7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.StatisticsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.StatisticsData.html",
+          "hash": "Ab4A8H9M1DAzPI19/5dBgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.TelemetryMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.TelemetryMapping.html",
+          "hash": "oilblUi1fki0jRINCjGycA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.TimeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.TimeBase.html",
+          "hash": "Trcu95yvzxmPGjbM1YSkmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.TracerCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.TracerCategory.html",
+          "hash": "HyzMVztL/cqk4XNp4mG1wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.TracerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.TracerSettings.html",
+          "hash": "OJx87pE+MmRz5vFm8Q3wSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.UpdateLoopStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.UpdateLoopStatistics.html",
+          "hash": "sOdA58MYpOnjQGCdlAjjIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.UpdateableStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.UpdateableStatistics.html",
+          "hash": "oy+yWOjPzs90DMusqrl/4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.html",
+          "hash": "/sG3YpICBZFHScUT4AGCrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Workbook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Workbook.html",
+          "hash": "1k2ij2G1pqlF9pkUPOaTUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.html",
+          "hash": "MULFbYwUz/EMMcqr2xhGuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.html",
+          "hash": "1tGZuSGUcxcB5hBCGKl8dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.AutomationClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.AutomationClient.html",
+          "hash": "IdiyRtFMVPO6+ajUi0TJlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.ConnectionFailedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.ConnectionFailedException.html",
+          "hash": "KwBjpsW6sAyFYjz9xsB6QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.CursorPointChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.CursorPointChangedEventArgs.html",
+          "hash": "bV1S3/BgkwD00pzKhx7sQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnClientConnectedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnClientConnectedDelegate.html",
+          "hash": "YfFdN2mFir7asaXtjXYuew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnExitDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnExitDelegate.html",
+          "hash": "V3lJ1J89W6EVJNKOUpTupw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnMessageReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnMessageReceivedDelegate.html",
+          "hash": "txUBgtmOhg1F8WplBTZBJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewLapDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewLapDelegate.html",
+          "hash": "zwu297htN6lyoHZkzj+XlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewSessionEventDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewSessionEventDelegate.html",
+          "hash": "vcJw9jkSZq98Vqetgo0dxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionLoadedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionLoadedDelegate.html",
+          "hash": "tFkg6+y6e+BcVUeEdhEeAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionRemovedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionRemovedDelegate.html",
+          "hash": "eopOKMPV3S29kkzaiN5Xxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStartedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStartedDelegate.html",
+          "hash": "aiOM1Cm553H5jXokW09hyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate.html",
+          "hash": "Pi33begYHv0cTKZ53cSdsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html",
+          "hash": "CWk5nzHnG31TFBJ1gDy71Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html",
+          "hash": "WMXRJEmK5keM+rM8CpZHGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientNoCallbackBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientNoCallbackBase-2.html",
+          "hash": "yKakqr+Wz+EPVYjL5tyH7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase-2.html",
+          "hash": "xG454Ik/zZcIms4KdxDCnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.DataSourceServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.DataSourceServiceClient.html",
+          "hash": "WDZ6XMb4xNQjMROmqMACew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.DiagnosticsServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.DiagnosticsServiceClient.html",
+          "hash": "/pjf3dDBAoJfejaHeoLUuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html",
+          "hash": "5uZ6DZYfoyIpn5gnOeRrzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.IAutomationServiceMethodHandlers-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.IAutomationServiceMethodHandlers-1.html",
+          "hash": "uVGVbh6TPJmoiP0TbqWN+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.html",
+          "hash": "NzLA1wzFoWFgMgsMudSB/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IApplicationServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IApplicationServiceClient.html",
+          "hash": "unlk+M7R3QhGe+h7WvYOMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IDataSourceServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IDataSourceServiceClient.html",
+          "hash": "UeoAC0y/uymmFPbSjvMGSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html",
+          "hash": "v2xh1Hvgee8oedrirQLZtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.INumericDisplayServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.INumericDisplayServiceClient.html",
+          "hash": "EDpsFZBucWH7Jqou3I8jNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.html",
+          "hash": "T8ipMGRlyHygNlkXF5vKVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html",
+          "hash": "N5oP7KzGvsvyRRRUN8W+fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IRecorderServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IRecorderServiceClient.html",
+          "hash": "SWb3Kp87hBeWB9zUpWhvaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.html",
+          "hash": "M2tcjd/gH0bMQql5adB9zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.html",
+          "hash": "ttXLhx3vacJVPzOIhHyKBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ISummaryDisplayServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ISummaryDisplayServiceClient.html",
+          "hash": "sISy8meD0BCDDvAYsts8Ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseCallbackServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseCallbackServiceClient.html",
+          "hash": "TdHovcPYB+Z7y9aH+nwcVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.html",
+          "hash": "ssIwFeHa8LznFu7g+FVcdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IWaveformDisplayServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IWaveformDisplayServiceClient.html",
+          "hash": "S0oZACoyG490RHL6qHgHBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IWorkbookServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IWorkbookServiceClient.html",
+          "hash": "6tmtZuTg3VAjiRYcjUEcdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.html",
+          "hash": "p72VuN6F9IW4oJcAbkg94A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.NumericDisplayServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.NumericDisplayServiceClient.html",
+          "hash": "SViZkZfIhFON7Elj73vAvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.PageServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.PageServiceClient.html",
+          "hash": "R7bPg5GEaUanMdfP84hY/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.html",
+          "hash": "MNKfTrjIhWynXDyn+KfK7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.RecorderServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.RecorderServiceClient.html",
+          "hash": "2+3IlPnCKJQ/sWI99v9PnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.SessionServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.SessionServiceClient.html",
+          "hash": "6idFuk46wBoJTrTWPb/xuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.SetServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.SetServiceClient.html",
+          "hash": "wUxxJPFNjyNL6M8exsHoOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.SummaryDisplayServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.SummaryDisplayServiceClient.html",
+          "hash": "R+PUMw0BBNFCn7o9gPz/+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChangedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChangedDelegate.html",
+          "hash": "7/acUWjeIOrm9Fha+S1WUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnTimeBaseChangedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnTimeBaseChangedDelegate.html",
+          "hash": "vz/qD3lE8UTt6QzNFdSLcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html",
+          "hash": "Ptbrg/olxcuJgf9wc+S36Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.html",
+          "hash": "FDgh6lzUVIAXNfDSWBdgHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChangedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChangedDelegate.html",
+          "hash": "BLgsVzWCKUixaGKsq1/pkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnTimeBaseChangedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnTimeBaseChangedDelegate.html",
+          "hash": "DCbOwE5rHAKxKFyGrZ0Zyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html",
+          "hash": "lv08nBUMPA8EGChQzu4C/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.TracerServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.TracerServiceClient.html",
+          "hash": "7NRsxGksHLLNJefeAoZ00Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.UpdateLoopStatisticsServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.UpdateLoopStatisticsServiceClient.html",
+          "hash": "kWoNRIsZMRjr0gHNvyYniA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.WaveformDisplayServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.WaveformDisplayServiceClient.html",
+          "hash": "CHVig1+AAlBUdksMqNZkXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.WorkbookServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.WorkbookServiceClient.html",
+          "hash": "WNr8TUOkCuG+EakRoz/LJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.html",
+          "hash": "O9kgDgVoxTSReXDnf/8YvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.TimeBaseChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.TimeBaseChangedEventArgs.html",
+          "hash": "QW9eO+kDPMF1KUtWUlmZBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.html",
+          "hash": "FLkSX6xlpr+e3zs5CHtgBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.ClientPlatformModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.ClientPlatformModule.html",
+          "hash": "Ub21IbsIGgQPCYq04iFYMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.ICompositeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.ICompositeRequest.html",
+          "hash": "HkglTw4icO1FBks8sXpnPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.ICompositeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.ICompositeResult.html",
+          "hash": "dsa1Q76tWKvD02m1ko9ieA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.html",
+          "hash": "NKTIdTQ03TPR9NC1Oc4Dgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.ILap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.ILap.html",
+          "hash": "QhANh1vIj7PKms7TKsPNLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.IRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.IRequest.html",
+          "hash": "ya3PJdN0IxMPrsA2DL3jOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.IResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.IResult.html",
+          "hash": "c+npw5uYb6RUpsl1g0Iejw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.IStatisticsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.IStatisticsResult.html",
+          "hash": "p8tZVnAsI3pwwlgeSaN9RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.PanningState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.PanningState.html",
+          "hash": "l7iQI9mY+aYjAhyU/4MVPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.SampleDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.SampleDirection.html",
+          "hash": "oSvs3zAZccFSCCGWx8q9YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.SampleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.SampleMode.html",
+          "hash": "6ZKurFEanx0Qfeyk7PXWkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.CompositeDataRequestSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.CompositeDataRequestSignal.html",
+          "hash": "JTEErei+K0caRwApZ1GCpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.CompositeDataResultSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.CompositeDataResultSignal.html",
+          "hash": "MFVvkrstq/8fWk5Ahajyvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleRequestSignal.html",
+          "hash": "cm13dqvmS8pQSGXtP4wMiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleResultSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.CompositeSampleResultSignal.html",
+          "hash": "9G/KkOyjyeiufZ1MNrfmfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.DataRequestSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.DataRequestSignal.html",
+          "hash": "PSbgq+Yeu/glwdeMawOZsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.DataResultSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.DataResultSignal.html",
+          "hash": "TSTPdoqPbdTEvr2t6eO9eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.DataStatisticsRequestSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.DataStatisticsRequestSignal.html",
+          "hash": "x3mUeaUgDZyVN7jETP1LkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.DataStatisticsResultSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.DataStatisticsResultSignal.html",
+          "hash": "6G+fbvevV1QrhfQ1EAdwvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.RequestFailedSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.RequestFailedSignal.html",
+          "hash": "QZqBYYccwCpz4M7phTP7OA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.SampleRequestSignal.html",
+          "hash": "nxJct5P7ylHvi75xHqGLmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.SampleResultSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.SampleResultSignal.html",
+          "hash": "qvhDUEBC1H8uClCOjt0nEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.SignalIdentifiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.SignalIdentifiers.html",
+          "hash": "FF33uBvGkal0ryoRJ8Kpcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.html",
+          "hash": "1CN9NgSVCFSPgXZeAVkQ+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.StatisticLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.StatisticLevel.html",
+          "hash": "k6KOOIqbBH/yFeKdq1Nrng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.StatisticOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.StatisticOption.html",
+          "hash": "PaNmQtr2/CZ/PECH5yh62w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.TriggerSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.TriggerSource.html",
+          "hash": "MorSsjWeRmsVNiOWG+BsOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Data.html",
+          "hash": "nNvI25EeAFzrb14TqBEZPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Parameters.IConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.IConversion.html",
+          "hash": "aAc/9whZ4KDWfJv8LWx7ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.IDisplayParameter.html",
+          "hash": "jSBbBykMj6ax2VeryocNKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.IDisplayParameterContainer.html",
+          "hash": "8xkyHWb5xsiUFctP7dSG6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Parameters.ISessionParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.ISessionParameter.html",
+          "hash": "K29C9slsXm/1PwCbl73wsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Parameters.ParameterEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.ParameterEventArgs.html",
+          "hash": "574A7BRQcfVQT/mjJ3AESg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.html",
+          "hash": "ey4jmrSLzUTx331UhLZEpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.html",
+          "hash": "fzoXY7Mv8mCMgEBe+gd+Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.CompositeSessionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.CompositeSessionEventArgs.html",
+          "hash": "40EbLROEjDsvPSi3WvAIrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.CompositeSessionUnloadedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.CompositeSessionUnloadedEventArgs.html",
+          "hash": "5C/cdYG3YBNOnp33iGU4lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ICompositeSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ICompositeSession.html",
+          "hash": "NS2hOIW3N8hDrg6tXteqig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ICompositeSessionContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ICompositeSessionContainer.html",
+          "hash": "b/TubwhGIv+AeLJDEDSZUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISession.html",
+          "hash": "I++7jVJ7jputlUFX3eRVjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISessionCursorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISessionCursorService.html",
+          "hash": "hjMUCUtM4ABL0WQ3BQs61Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISessionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISessionService.html",
+          "hash": "T+yqQIdKRiPNnIu0BGmegQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISessionSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISessionSummary.html",
+          "hash": "wpQztn5e6yizOhiPr1rSEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISessionSummaryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.ISessionSummaryService.html",
+          "hash": "oe5Wx4F08gaQyidzkdsb6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.SessionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.SessionExtensions.html",
+          "hash": "tVsR9EEtoWUV+/bV0q5z0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.SessionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.SessionState.html",
+          "hash": "xJ5YlsgFm8PiZWAMYrJJlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.Sessions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.html",
+          "hash": "UY+j/ucCDPDXFHTdEAlwCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Platform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Platform.html",
+          "hash": "G1HLPnLhMjHyNuCvqdA70g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.ClientPresentationModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.ClientPresentationModule.html",
+          "hash": "K+dCamyew6hTu1AsrL8fCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Commands.DelegateCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Commands.DelegateCommand-1.html",
+          "hash": "E80jf+AxbNgsLUy0j2imNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Commands.DelegateCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html",
+          "hash": "G8yyUhkZjG4Ymfdd/ZFNRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Commands.html",
+          "hash": "wlQpOerva/n9k429WcTZbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.html",
+          "hash": "DeiVuImHGAv4hboNbJC2MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Displays.IDisplayPluginServiceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Displays.IDisplayPluginServiceContext.html",
+          "hash": "brN/M/iU4vHQ62pANzoMPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html",
+          "hash": "r7AwTkYFQEK8mrrFMQ1W1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Displays.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Displays.html",
+          "hash": "MyEJqM3BEmQNQoF1mooTEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.DisplayPlugin-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.DisplayPlugin-1.html",
+          "hash": "YYnGuovOk1SyYMgeQ/ngOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.DisplayPluginAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.DisplayPluginAttribute.html",
+          "hash": "ztqg2QVcIDaz84xxpu6kow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.DisplayPluginSettingsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.DisplayPluginSettingsAttribute.html",
+          "hash": "tsv6QP5FI+qLtcugcXpo+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.IDisplayPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.IDisplayPlugin.html",
+          "hash": "whFhITCh3VQePdJTk+hqgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.html",
+          "hash": "4y4MW0HjcMyVs0uBLOqsaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Services.IDisplayParameterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Services.IDisplayParameterService.html",
+          "hash": "8hAMlSydet5PRYmZEws9+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.Services.html",
+          "hash": "Wifxx8KQFBNdQc91o5fD7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Client.Presentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Client.Presentation.html",
+          "hash": "4LeDza50YJKmf9LI9Q6eIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.CompositeSessionContainerKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.CompositeSessionContainerKey.html",
+          "hash": "6YmLIT7aIfTQeiiKDJOXxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.CompositeSessionKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.CompositeSessionKey.html",
+          "hash": "6wxDFa4pVVHCeyi7gxSKRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.DataResultMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.DataResultMode.html",
+          "hash": "4watvtDPFqzrntHbGIty8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.DataStatusType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.DataStatusType.html",
+          "hash": "9yh3BFyu0ZFZ/j+yWfJZgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.ErrorStatusType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.ErrorStatusType.html",
+          "hash": "KWYSTjU1dDjNWFONSRep5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.Extensions.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.Extensions.DateTimeExtensions.html",
+          "hash": "oTXD1AekqsqEOMhtz7rFQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.Extensions.html",
+          "hash": "jj9pdkWW7T2h7bkwi5sAmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.FileWatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.FileWatcher.html",
+          "hash": "EJ1LJJnLho9ghLfI/5R/Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.ParameterValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.ParameterValues.html",
+          "hash": "uotcN8hT+c6hOTo63dKQ0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.ParameterValuesBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.ParameterValuesBase.html",
+          "hash": "MpgstrE6lzaoe0AbyqcV2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.ParameterValuesTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.ParameterValuesTemplate.html",
+          "hash": "3KVhHCqypKwswA45Ar0oMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.SessionKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.SessionKey.html",
+          "hash": "I2xHLN0XmgT4neUaUpi9ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.StreamExtensions.html",
+          "hash": "pA2PvV4JUFhUxmODhjRRJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.TimestampValuesBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.TimestampValuesBase.html",
+          "hash": "kL4mL2T0kYJdzMbwREBzTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.OCS.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.OCS.Core.html",
+          "hash": "7Lb2NC9yCfUUvZFkj9NcaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "BID6Q58gdyko+mGyC+MLwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "pwQduGxk9hzTNsmZuETMNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "lQ7k0evkVNazDlqvLthCng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/malogo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/malogo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "swgf3J6uTcPPnS7h/n+P2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 373,
+          "skipped_file_count": 193
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

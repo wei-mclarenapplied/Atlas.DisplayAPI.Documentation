@@ -1,0 +1,721 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DelegateCommand
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DelegateCommand
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand">
+  
+  
+  <h1 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand" class="text-break">Class DelegateCommand
+  </h1>
+  <div class="markdown level0 summary"><p>Provides an <span class="xref">System.Windows.Input.ICommand</span> implementation which relays the Execute and CanExecute
+method to the specified delegates.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DelegateCommand</span></div>
+      <div class="level2"><a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand-1.html">DelegateCommand&lt;TParameter&gt;</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Windows.Input.ICommand</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.html">MAT.Atlas.Client.Presentation.Commands</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Client.Presentation.dll</h6>
+  <h5 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DelegateCommand : ICommand</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor">DelegateCommand()</h4>
+  <div class="markdown level1 summary"><p>Initializes an empty instance of the <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html">DelegateCommand</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DelegateCommand()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_System_Action_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor(System.Action)">DelegateCommand(Action)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html">DelegateCommand</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand(Action execute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>Delegate to execute when Execute is called on the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The execute argument must not be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_System_Action_System_Func_System_Boolean__" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean})">DelegateCommand(Action, Func&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html">DelegateCommand</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand(Action execute, Func&lt;bool&gt; canExecute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>Delegate to execute when Execute is called on the command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">canExecute</span></td>
+        <td><p>Delegate to execute when CanExecute is called on the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The execute argument must not be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_System_Action_System_Func_System_Object_System_Boolean__" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor(System.Action,System.Func{System.Object,System.Boolean})">DelegateCommand(Action, Func&lt;Object, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html">DelegateCommand</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand(Action execute, Func&lt;object, bool&gt; canExecute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>Delegate to execute when Execute is called on the command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">canExecute</span></td>
+        <td><p>Delegate to execute when CanExecute is called on the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The execute argument must not be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_System_Action_System_Object__" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor(System.Action{System.Object})">DelegateCommand(Action&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html">DelegateCommand</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand(Action&lt;object&gt; execute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>Delegate to execute when Execute is called on the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The execute argument must not be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_System_Action_System_Object__System_Func_System_Boolean__" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor(System.Action{System.Object},System.Func{System.Boolean})">DelegateCommand(Action&lt;Object&gt;, Func&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html">DelegateCommand</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand(Action&lt;object&gt; execute, Func&lt;bool&gt; canExecute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>Delegate to execute when Execute is called on the command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">canExecute</span></td>
+        <td><p>Delegate to execute when CanExecute is called on the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The execute argument must not be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand__ctor_System_Action_System_Object__System_Func_System_Object_System_Boolean__" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.#ctor(System.Action{System.Object},System.Func{System.Object,System.Boolean})">DelegateCommand(Action&lt;Object&gt;, Func&lt;Object, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html">DelegateCommand</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand(Action&lt;object&gt; execute, Func&lt;object, bool&gt; canExecute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>Delegate to execute when Execute is called on the command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">canExecute</span></td>
+        <td><p>Delegate to execute when CanExecute is called on the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The execute argument must not be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_Disabled" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.Disabled">Disabled</h4>
+  <div class="markdown level1 summary"><p>A <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html">DelegateCommand</a> instance that does nothing and can never be executed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DelegateCommand Disabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html">DelegateCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_IsEnabled_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.IsEnabled*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_IsEnabled" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.IsEnabled">IsEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether the current DelegateCommand is enabled. If this
+value is not null, it takes precedence over the canExecute function was passed in the
+constructor. If no function was passed and this value is null the command is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_CanExecute_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.CanExecute*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_CanExecute" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.CanExecute">CanExecute()</h4>
+  <div class="markdown level1 summary"><p>Convenience method that invokes CanExecute without parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanExecute()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if this command can be executed; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_CanExecute_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.CanExecute*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_CanExecute_System_Object_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.CanExecute(System.Object)">CanExecute(Object)</h4>
+  <div class="markdown level1 summary"><p>Defines the method that determines whether the command can execute in its current state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanExecute(object parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Data used by the command. If the command does not require data to be passed, this object can be
+set to null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if this command can be executed; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_Execute_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.Execute*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_Execute" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.Execute">Execute()</h4>
+  <div class="markdown level1 summary"><p>Convenience method that invokes the command without parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>The <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html#MAT_Atlas_Client_Presentation_Commands_DelegateCommand_CanExecute_System_Object_">CanExecute(Object)</a> method returns false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_Execute_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.Execute*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_Execute_System_Object_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.Execute(System.Object)">Execute(Object)</h4>
+  <div class="markdown level1 summary"><p>Defines the method to be called when the command is invoked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Execute(object parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Data used by the command. If the command does not require data to be passed, this object can be
+set to null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>The <a class="xref" href="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html#MAT_Atlas_Client_Presentation_Commands_DelegateCommand_CanExecute_System_Object_">CanExecute(Object)</a> method returns false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_OnCanExecuteChanged_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.OnCanExecuteChanged*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_OnCanExecuteChanged" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.OnCanExecuteChanged">OnCanExecuteChanged()</h4>
+  <div class="markdown level1 summary"><p>Raises the <span class="xref">CanExecuteChanged</span> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCanExecuteChanged()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_RaiseCanExecuteChanged_" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.RaiseCanExecuteChanged*"></a>
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_RaiseCanExecuteChanged" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.RaiseCanExecuteChanged">RaiseCanExecuteChanged()</h4>
+  <div class="markdown level1 summary"><p>Raises the <span class="xref">CanExecuteChanged</span> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RaiseCanExecuteChanged()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="MAT_Atlas_Client_Presentation_Commands_DelegateCommand_CanExecuteChanged" data-uid="MAT.Atlas.Client.Presentation.Commands.DelegateCommand.CanExecuteChanged">CanExecuteChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when changes occur that affect whether or not the command should execute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler CanExecuteChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Windows.Input.ICommand</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

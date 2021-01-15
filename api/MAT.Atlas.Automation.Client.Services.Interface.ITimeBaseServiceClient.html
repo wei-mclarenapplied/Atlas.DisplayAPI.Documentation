@@ -1,0 +1,484 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ITimeBaseServiceClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ITimeBaseServiceClient
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient">
+  
+  
+  <h1 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient" class="text-break">Interface ITimeBaseServiceClient
+  </h1>
+  <div class="markdown level0 summary"><p>Timebase service client.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.html">MAT.Atlas.Automation.Client.Services.Interface</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Client.dll</h6>
+  <h5 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(true)]
+[Guid(&quot;FC69FE19-3552-41FF-939F-3593E361EDFB&quot;)]
+public interface ITimeBaseServiceClient</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_GetTimeBase_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.GetTimeBase*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_GetTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.GetTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId)">GetTimeBase(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a timebase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TimeBase GetTimeBase(ObjectId timeBaseId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.TimeBase.html">TimeBase</a></td>
+        <td><p>Timebase properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursor_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursor*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursor_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursor(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int64)">SetCursor(ObjectId, Int64)</h4>
+  <div class="markdown level1 summary"><p>Set time stamp of cursor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+void SetCursor(ObjectId timeBaseId, long time)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">time</span></td>
+        <td><p>Time stamp of cursor (nanoseconds).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorVba_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorVba(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)">SetCursorVba(ObjectId, Double)</h4>
+  <div class="markdown level1 summary"><p>Set time stamp of cursor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCursorVba(ObjectId timeBaseId, double time)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">time</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBase_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBase*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int64_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int64,System.Int64)">SetTimeBase(ObjectId, Int64, Int64)</h4>
+  <div class="markdown level1 summary"><p>Set time range of timebase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(false)]
+void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>Start of time range (nanoseconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">endTime</span></td>
+        <td><p>End of time range (nanoseconds).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseByLap_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseByLap*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseByLap_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int16_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseByLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int16)">SetTimeBaseByLap(ObjectId, Int16)</h4>
+  <div class="markdown level1 summary"><p>Set timebase from a lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTimeBaseByLap(ObjectId timeBaseId, short lapNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">lapNumber</span></td>
+        <td><p>Number of lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseByLaps_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseByLaps*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseByLaps_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int16_System_Int16_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseByLaps(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int16,System.Int16)">SetTimeBaseByLaps(ObjectId, Int16, Int16)</h4>
+  <div class="markdown level1 summary"><p>Set timebase from a range of laps.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTimeBaseByLaps(ObjectId timeBaseId, short lapNumberStart, short lapNumberEnd)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">lapNumberStart</span></td>
+        <td><p>Number of start lap.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">lapNumberEnd</span></td>
+        <td><p>Number of end lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseFastestLap_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseFastestLap*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseFastestLap_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseFastestLap(MAT.Atlas.Automation.Api.Models.ObjectId)">SetTimeBaseFastestLap(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Set timebase from fastest lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTimeBaseFastestLap(ObjectId timeBaseId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseVba_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseVba(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Double)">SetTimeBaseVba(ObjectId, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Set time range of timebase for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTimeBaseVba(ObjectId timeBaseId, double startTime, double endTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">endTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SubscribeTimeBaseChanged_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SubscribeTimeBaseChanged*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SubscribeTimeBaseChanged_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SubscribeTimeBaseChanged(MAT.Atlas.Automation.Api.Models.ObjectId)">SubscribeTimeBaseChanged(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Start monitoring a timebase for changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SubscribeTimeBaseChanged(ObjectId timeBaseId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_UnsubscribeTimeBaseChanged_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.UnsubscribeTimeBaseChanged*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_UnsubscribeTimeBaseChanged_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.UnsubscribeTimeBaseChanged(MAT.Atlas.Automation.Api.Models.ObjectId)">UnsubscribeTimeBaseChanged(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Stop monitoring a timebase for changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UnsubscribeTimeBaseChanged(ObjectId timeBaseId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

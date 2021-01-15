@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISetServiceClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISetServiceClient
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient">
+  
+  
+  <h1 id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient" class="text-break">Interface ISetServiceClient
+  </h1>
+  <div class="markdown level0 summary"><p>Set service client.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.html">MAT.Atlas.Automation.Client.Services.Interface</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Client.dll</h6>
+  <h5 id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(true)]
+[Guid(&quot;D8FB12DC-77AA-4A47-B77F-D8A32BAF278D&quot;)]
+public interface ISetServiceClient</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_GetCompositeSessions_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.GetCompositeSessions*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_GetCompositeSessions_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.GetCompositeSessions(MAT.Atlas.Automation.Api.Models.ObjectId)">GetCompositeSessions(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of all composite sessions associated with a set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeSession[] GetCompositeSessions(ObjectId setId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">setId</span></td>
+        <td><p>Unique identifier of a set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.CompositeSession.html">CompositeSession</a>[]</td>
+        <td><p>Collection of composite session properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_GetPrimarySession_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.GetPrimarySession*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_GetPrimarySession_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.GetPrimarySession(MAT.Atlas.Automation.Api.Models.ObjectId)">GetPrimarySession(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of the primary composite session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CompositeSession GetPrimarySession(ObjectId setId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">setId</span></td>
+        <td><p>Unique identifier of a set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.CompositeSession.html">CompositeSession</a></td>
+        <td><p>Composite session properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_GetSet_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.GetSet*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_GetSet_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.GetSet(MAT.Atlas.Automation.Api.Models.ObjectId)">GetSet(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Set GetSet(ObjectId setId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">setId</span></td>
+        <td><p>Unique identifier of a set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Set.html">Set</a></td>
+        <td><p>Set properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_RemoveSet_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.RemoveSet*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_RemoveSet_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.RemoveSet(MAT.Atlas.Automation.Api.Models.ObjectId)">RemoveSet(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Remove a set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveSet(ObjectId setId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">setId</span></td>
+        <td><p>Unique identifier of a set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_RenameSet_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.RenameSet*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ISetServiceClient_RenameSet_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.RenameSet(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)">RenameSet(ObjectId, String)</h4>
+  <div class="markdown level1 summary"><p>Change the title of a set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RenameSet(ObjectId setId, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">setId</span></td>
+        <td><p>Unique identifier of a set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>New title for the set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

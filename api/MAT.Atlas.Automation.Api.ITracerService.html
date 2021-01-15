@@ -1,0 +1,705 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ITracerService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ITracerService
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Api.ITracerService">
+  
+  
+  <h1 id="MAT_Atlas_Automation_Api_ITracerService" data-uid="MAT.Atlas.Automation.Api.ITracerService" class="text-break">Interface ITracerService
+  </h1>
+  <div class="markdown level0 summary"><p>Tracing service.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Api.html">MAT.Atlas.Automation.Api</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Api.dll</h6>
+  <h5 id="MAT_Atlas_Automation_Api_ITracerService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AutomationService(&quot;Tracing&quot;)]
+public interface ITracerService : IAutomationService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_DisableResourceUsageMonitoring_" data-uid="MAT.Atlas.Automation.Api.ITracerService.DisableResourceUsageMonitoring*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_DisableResourceUsageMonitoring" data-uid="MAT.Atlas.Automation.Api.ITracerService.DisableResourceUsageMonitoring">DisableResourceUsageMonitoring()</h4>
+  <div class="markdown level1 summary"><p>Disable resource usage monitoring.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DisableResourceUsageMonitoring()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_EnableResourceUsageMonitoring_" data-uid="MAT.Atlas.Automation.Api.ITracerService.EnableResourceUsageMonitoring*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_EnableResourceUsageMonitoring_System_Int32_System_Int32_" data-uid="MAT.Atlas.Automation.Api.ITracerService.EnableResourceUsageMonitoring(System.Int32,System.Int32)">EnableResourceUsageMonitoring(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Enable resource usage monitoring.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EnableResourceUsageMonitoring(int sampleRateInMs, int summaryIntervalInMs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sampleRateInMs</span></td>
+        <td><p>How often resources are sampled.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">summaryIntervalInMs</span></td>
+        <td><p>Over how long samples are summerised.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_EnableResourceUsageMonitoringWithDefaults_" data-uid="MAT.Atlas.Automation.Api.ITracerService.EnableResourceUsageMonitoringWithDefaults*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_EnableResourceUsageMonitoringWithDefaults" data-uid="MAT.Atlas.Automation.Api.ITracerService.EnableResourceUsageMonitoringWithDefaults">EnableResourceUsageMonitoringWithDefaults()</h4>
+  <div class="markdown level1 summary"><p>Enable resource usage monitoring with default settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EnableResourceUsageMonitoringWithDefaults()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_GetEventsReport_" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetEventsReport*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_GetEventsReport" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetEventsReport">GetEventsReport()</h4>
+  <div class="markdown level1 summary"><p>Get events report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetEventsReport()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Events report.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_GetOperationsReport_" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetOperationsReport*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_GetOperationsReport_System_Int32_System_Boolean_" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetOperationsReport(System.Int32,System.Boolean)">GetOperationsReport(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get operations report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetOperationsReport(int sortByIndex, bool sortAscending)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sortByIndex</span></td>
+        <td><p>Sort operations by index.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">sortAscending</span></td>
+        <td><p>Sort operations ascending.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Operations report.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_GetResourceUsageReport_" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetResourceUsageReport*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_GetResourceUsageReport" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetResourceUsageReport">GetResourceUsageReport()</h4>
+  <div class="markdown level1 summary"><p>Get resource usage report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetResourceUsageReport()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Resource usage report.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_GetThreadsReport_" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetThreadsReport*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_GetThreadsReport_System_Boolean_System_Boolean_" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetThreadsReport(System.Boolean,System.Boolean)">GetThreadsReport(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get threads report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetThreadsReport(bool onlyActiveThreads, bool combineAllThreads)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">onlyActiveThreads</span></td>
+        <td><p>Only include active threads.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">combineAllThreads</span></td>
+        <td><p>Combine all threads into a single report.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Threads report.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_GetTracerSettings_" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetTracerSettings*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_GetTracerSettings" data-uid="MAT.Atlas.Automation.Api.ITracerService.GetTracerSettings">GetTracerSettings()</h4>
+  <div class="markdown level1 summary"><p>Get tracing settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TracerSettings GetTracerSettings()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.TracerSettings.html">TracerSettings</a></td>
+        <td><p>Tracer settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_LogEvents_" data-uid="MAT.Atlas.Automation.Api.ITracerService.LogEvents*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_LogEvents" data-uid="MAT.Atlas.Automation.Api.ITracerService.LogEvents">LogEvents()</h4>
+  <div class="markdown level1 summary"><p>Log events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogEvents()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_LogOperations_" data-uid="MAT.Atlas.Automation.Api.ITracerService.LogOperations*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_LogOperations_System_Int32_System_Boolean_" data-uid="MAT.Atlas.Automation.Api.ITracerService.LogOperations(System.Int32,System.Boolean)">LogOperations(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Log operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogOperations(int sortByIndex, bool sortAscending)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sortByIndex</span></td>
+        <td><p>Sort operations by index.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">sortAscending</span></td>
+        <td><p>Sort operations ascending.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_LogResourceUsage_" data-uid="MAT.Atlas.Automation.Api.ITracerService.LogResourceUsage*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_LogResourceUsage" data-uid="MAT.Atlas.Automation.Api.ITracerService.LogResourceUsage">LogResourceUsage()</h4>
+  <div class="markdown level1 summary"><p>Log resource usage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogResourceUsage()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_LogThreads_" data-uid="MAT.Atlas.Automation.Api.ITracerService.LogThreads*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_LogThreads_System_Boolean_System_Boolean_" data-uid="MAT.Atlas.Automation.Api.ITracerService.LogThreads(System.Boolean,System.Boolean)">LogThreads(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Log threads.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogThreads(bool onlyActiveThreads, bool combineAllThreads)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">onlyActiveThreads</span></td>
+        <td><p>Only include active threads.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">combineAllThreads</span></td>
+        <td><p>Combine all threads into a single report.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_RemoveAllOperations_" data-uid="MAT.Atlas.Automation.Api.ITracerService.RemoveAllOperations*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_RemoveAllOperations" data-uid="MAT.Atlas.Automation.Api.ITracerService.RemoveAllOperations">RemoveAllOperations()</h4>
+  <div class="markdown level1 summary"><p>Remove all operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveAllOperations()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_RemoveAllOperationsOfCategory_" data-uid="MAT.Atlas.Automation.Api.ITracerService.RemoveAllOperationsOfCategory*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_RemoveAllOperationsOfCategory_System_String_" data-uid="MAT.Atlas.Automation.Api.ITracerService.RemoveAllOperationsOfCategory(System.String)">RemoveAllOperationsOfCategory(String)</h4>
+  <div class="markdown level1 summary"><p>Remove all operations of a category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveAllOperationsOfCategory(string categoryName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">categoryName</span></td>
+        <td><p>Name of category.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_RemoveOperation_" data-uid="MAT.Atlas.Automation.Api.ITracerService.RemoveOperation*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_RemoveOperation_System_String_System_String_" data-uid="MAT.Atlas.Automation.Api.ITracerService.RemoveOperation(System.String,System.String)">RemoveOperation(String, String)</h4>
+  <div class="markdown level1 summary"><p>Remove an operation of a category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveOperation(string categoryName, string operationName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">categoryName</span></td>
+        <td><p>Name of category.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">operationName</span></td>
+        <td><p>Name of operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_ResetAllOperations_" data-uid="MAT.Atlas.Automation.Api.ITracerService.ResetAllOperations*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_ResetAllOperations" data-uid="MAT.Atlas.Automation.Api.ITracerService.ResetAllOperations">ResetAllOperations()</h4>
+  <div class="markdown level1 summary"><p>Reset all operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetAllOperations()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_ResetAllOperationsOfCategory_" data-uid="MAT.Atlas.Automation.Api.ITracerService.ResetAllOperationsOfCategory*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_ResetAllOperationsOfCategory_System_String_" data-uid="MAT.Atlas.Automation.Api.ITracerService.ResetAllOperationsOfCategory(System.String)">ResetAllOperationsOfCategory(String)</h4>
+  <div class="markdown level1 summary"><p>Reset all operations of a category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetAllOperationsOfCategory(string categoryName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">categoryName</span></td>
+        <td><p>Name of category.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_ResetOperation_" data-uid="MAT.Atlas.Automation.Api.ITracerService.ResetOperation*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_ResetOperation_System_String_System_String_" data-uid="MAT.Atlas.Automation.Api.ITracerService.ResetOperation(System.String,System.String)">ResetOperation(String, String)</h4>
+  <div class="markdown level1 summary"><p>Reset an operation of a category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetOperation(string categoryName, string operationName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">categoryName</span></td>
+        <td><p>Name of category.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">operationName</span></td>
+        <td><p>Name of operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_SetCategoryTracingEnabled_" data-uid="MAT.Atlas.Automation.Api.ITracerService.SetCategoryTracingEnabled*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_SetCategoryTracingEnabled_System_String_System_Boolean_" data-uid="MAT.Atlas.Automation.Api.ITracerService.SetCategoryTracingEnabled(System.String,System.Boolean)">SetCategoryTracingEnabled(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable/disable tracing for a category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCategoryTracingEnabled(string categoryName, bool enabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">categoryName</span></td>
+        <td><p>Name of category.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td><p>Whether category tracing is enabled.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_SetTracingEnabled_" data-uid="MAT.Atlas.Automation.Api.ITracerService.SetTracingEnabled*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_SetTracingEnabled_System_Boolean_" data-uid="MAT.Atlas.Automation.Api.ITracerService.SetTracingEnabled(System.Boolean)">SetTracingEnabled(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enable/disable tracing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTracingEnabled(bool enabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td><p>Whether tracing is enabled.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Api_ITracerService_Trace_" data-uid="MAT.Atlas.Automation.Api.ITracerService.Trace*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITracerService_Trace_System_String_System_String_" data-uid="MAT.Atlas.Automation.Api.ITracerService.Trace(System.String,System.String)">Trace(String, String)</h4>
+  <div class="markdown level1 summary"><p>Trace message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Trace(string categoryName, string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">categoryName</span></td>
+        <td><p>Name of category.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>Text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

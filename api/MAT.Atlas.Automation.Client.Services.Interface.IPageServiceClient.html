@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IPageServiceClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IPageServiceClient
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient">
+  
+  
+  <h1 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient" class="text-break">Interface IPageServiceClient
+  </h1>
+  <div class="markdown level0 summary"><p>Page service client.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.html">MAT.Atlas.Automation.Client.Services.Interface</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Client.dll</h6>
+  <h5 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(true)]
+[Guid(&quot;74943F7F-CFF3-4303-ADFC-C18FEBE75F70&quot;)]
+public interface IPageServiceClient</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_ActivatePage_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.ActivatePage*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_ActivatePage_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.ActivatePage(MAT.Atlas.Automation.Api.Models.ObjectId)">ActivatePage(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Make page active (switch tab).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ActivatePage(ObjectId pageId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">pageId</span></td>
+        <td><p>Unique identifier of a page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_AssociateSetToPage_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.AssociateSetToPage*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_AssociateSetToPage_MAT_Atlas_Automation_Api_Models_ObjectId_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.AssociateSetToPage(MAT.Atlas.Automation.Api.Models.ObjectId,MAT.Atlas.Automation.Api.Models.ObjectId)">AssociateSetToPage(ObjectId, ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Associate a set to a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AssociateSetToPage(ObjectId pageId, ObjectId setId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">pageId</span></td>
+        <td><p>Unique identifier of a page.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">setId</span></td>
+        <td><p>Unique identifier of a set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_AssociateSetToPage_MAT_Atlas_Automation_Api_Models_ObjectId_MAT_Atlas_Automation_Api_Models_ObjectId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Only works if set association is not currently locked for page/display.</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_DuplicatePage_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.DuplicatePage*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_DuplicatePage_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.DuplicatePage(MAT.Atlas.Automation.Api.Models.ObjectId)">DuplicatePage(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Duplicate a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Page DuplicatePage(ObjectId pageId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">pageId</span></td>
+        <td><p>Unique identifier of a page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Page.html">Page</a></td>
+        <td><p>Page properties of duplicate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_GetDisplaysOfPage_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.GetDisplaysOfPage*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_GetDisplaysOfPage_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.GetDisplaysOfPage(MAT.Atlas.Automation.Api.Models.ObjectId)">GetDisplaysOfPage(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of all displays associated with a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Display[] GetDisplaysOfPage(ObjectId pageId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">pageId</span></td>
+        <td><p>Unique identifier of a page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Display.html">Display</a>[]</td>
+        <td><p>Collection of display properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_GetPage_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.GetPage*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_GetPage_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.GetPage(MAT.Atlas.Automation.Api.Models.ObjectId)">GetPage(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Page GetPage(ObjectId pageId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">pageId</span></td>
+        <td><p>Unique identifier of a page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Page.html">Page</a></td>
+        <td><p>Page properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_RemovePage_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.RemovePage*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_RemovePage_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.RemovePage(MAT.Atlas.Automation.Api.Models.ObjectId)">RemovePage(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Remove a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemovePage(ObjectId pageId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">pageId</span></td>
+        <td><p>Unique identifier of a page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_RenamePage_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.RenamePage*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_RenamePage_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.RenamePage(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)">RenamePage(ObjectId, String)</h4>
+  <div class="markdown level1 summary"><p>Change the title of a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RenamePage(ObjectId pageId, string title)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">pageId</span></td>
+        <td><p>Unique identifier of a page.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>New title for the page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_SetPageLockedToCurrentAssociation_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.SetPageLockedToCurrentAssociation*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_SetPageLockedToCurrentAssociation_MAT_Atlas_Automation_Api_Models_ObjectId_System_Boolean_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.SetPageLockedToCurrentAssociation(MAT.Atlas.Automation.Api.Models.ObjectId,System.Boolean)">SetPageLockedToCurrentAssociation(ObjectId, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Lock/Unlock the associated set of a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetPageLockedToCurrentAssociation(ObjectId pageId, bool isLockedToCurrentAssociation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">pageId</span></td>
+        <td><p>Unique identifier of a page.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLockedToCurrentAssociation</span></td>
+        <td><p>Whether to lock or unlock set association.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_SetPageTabColor_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.SetPageTabColor*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IPageServiceClient_SetPageTabColor_MAT_Atlas_Automation_Api_Models_ObjectId_MAT_Atlas_Automation_Api_Models_Color_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.SetPageTabColor(MAT.Atlas.Automation.Api.Models.ObjectId,MAT.Atlas.Automation.Api.Models.Color)">SetPageTabColor(ObjectId, Color)</h4>
+  <div class="markdown level1 summary"><p>Change the tab color of a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetPageTabColor(ObjectId pageId, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">pageId</span></td>
+        <td><p>Unique identifier of a page.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>New tab color for the page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IApplicationCallbackServiceClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IApplicationCallbackServiceClient
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient">
+  
+  
+  <h1 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient" class="text-break">Interface IApplicationCallbackServiceClient
+  </h1>
+  <div class="markdown level0 summary"><p>Application service client event sink.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.html">MAT.Atlas.Automation.Client.Services.Interface</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Client.dll</h6>
+  <h5 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ComVisible(true)]
+[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]
+[Guid(&quot;BEE209AE-C3E3-419D-8218-02D2507E38D5&quot;)]
+public interface IApplicationCallbackServiceClient</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnClientConnected_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnClientConnected*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnClientConnected_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnClientConnected(System.String)">OnClientConnected(String)</h4>
+  <div class="markdown level1 summary"><p>Client has connected event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnClientConnected(string clientName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">clientName</span></td>
+        <td><p>Client name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnExit_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnExit*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnExit" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnExit">OnExit()</h4>
+  <div class="markdown level1 summary"><p>Application has exited event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnExit()</code></pre>
+  </div>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnMessageReceived_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnMessageReceived*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnMessageReceived_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnMessageReceived(System.String)">OnMessageReceived(String)</h4>
+  <div class="markdown level1 summary"><p>Text message from another client has been received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnMessageReceived(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message send to all clients.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnMessageReceived_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For testing purposes only.</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnNewLap_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnNewLap*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnNewLap_MAT_Atlas_Automation_Api_Models_NewLap_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnNewLap(MAT.Atlas.Automation.Api.Models.NewLap)">OnNewLap(NewLap)</h4>
+  <div class="markdown level1 summary"><p>New lap event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNewLap(NewLap newLap)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.NewLap.html">NewLap</a></td>
+        <td><span class="parametername">newLap</span></td>
+        <td><p>New lap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnNewSessionEvent_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnNewSessionEvent*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnNewSessionEvent_MAT_Atlas_Automation_Api_Models_NewSessionEvent_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnNewSessionEvent(MAT.Atlas.Automation.Api.Models.NewSessionEvent)">OnNewSessionEvent(NewSessionEvent)</h4>
+  <div class="markdown level1 summary"><p>New &quot;session event&quot; event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNewSessionEvent(NewSessionEvent newSessionEvent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.NewSessionEvent.html">NewSessionEvent</a></td>
+        <td><span class="parametername">newSessionEvent</span></td>
+        <td><p>New session event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnSessionLoaded_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnSessionLoaded*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnSessionLoaded_MAT_Atlas_Automation_Api_Models_SessionLoaded_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnSessionLoaded(MAT.Atlas.Automation.Api.Models.SessionLoaded)">OnSessionLoaded(SessionLoaded)</h4>
+  <div class="markdown level1 summary"><p>Session loaded event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnSessionLoaded(SessionLoaded sessionLoaded)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionLoaded.html">SessionLoaded</a></td>
+        <td><span class="parametername">sessionLoaded</span></td>
+        <td><p>Session that has been loaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnSessionRemoved_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnSessionRemoved*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnSessionRemoved_MAT_Atlas_Automation_Api_Models_SessionRemoved_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnSessionRemoved(MAT.Atlas.Automation.Api.Models.SessionRemoved)">OnSessionRemoved(SessionRemoved)</h4>
+  <div class="markdown level1 summary"><p>Session removed event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnSessionRemoved(SessionRemoved sessionRemoved)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionRemoved.html">SessionRemoved</a></td>
+        <td><span class="parametername">sessionRemoved</span></td>
+        <td><p>Session that has been removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnTelemetryStarted_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnTelemetryStarted*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnTelemetryStarted_MAT_Atlas_Automation_Api_Models_TelemetryMapping_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnTelemetryStarted(MAT.Atlas.Automation.Api.Models.TelemetryMapping)">OnTelemetryStarted(TelemetryMapping)</h4>
+  <div class="markdown level1 summary"><p>Telemetry started event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnTelemetryStarted(TelemetryMapping telemetryMapping)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.TelemetryMapping.html">TelemetryMapping</a></td>
+        <td><span class="parametername">telemetryMapping</span></td>
+        <td><p>Telemetry mapping of recorder that started.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnTelemetryStopped_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnTelemetryStopped*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IApplicationCallbackServiceClient_OnTelemetryStopped_MAT_Atlas_Automation_Api_Models_TelemetryMapping_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.OnTelemetryStopped(MAT.Atlas.Automation.Api.Models.TelemetryMapping)">OnTelemetryStopped(TelemetryMapping)</h4>
+  <div class="markdown level1 summary"><p>Telemetry stopped event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnTelemetryStopped(TelemetryMapping telemetryMapping)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.TelemetryMapping.html">TelemetryMapping</a></td>
+        <td><span class="parametername">telemetryMapping</span></td>
+        <td><p>Telemetry mapping of recorder that stopped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
