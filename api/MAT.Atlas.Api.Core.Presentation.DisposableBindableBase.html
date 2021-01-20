@@ -73,74 +73,55 @@
   
   <h1 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase" class="text-break">Class DisposableBindableBase
   </h1>
-  <div class="markdown level0 summary"><p>Implementation of <a class="xref" href="MAT.Atlas.Api.Core.System.INotifyOfDisposal.html">INotifyOfDisposal</a> with <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html">BindableBase</a> to simplify models.</p>
+  <div class="markdown level0 summary"><p>Implementation of <a class="xref" href="MAT.Atlas.Api.Core.System.INotifyOfDisposal.html">INotifyOfDisposal</a> with <span class="xref">System.ComponentModel.INotifyPropertyChanged</span> to simplify models.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html">BindableBase</a></div>
+    <div class="level1"><a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html">DisposableBase</a></div>
     <div class="level2"><span class="xref">DisposableBindableBase</span></div>
       <div class="level3"><a class="xref" href="MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.html">DisplayPluginViewModel</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
     <div><a class="xref" href="MAT.Atlas.Api.Core.System.INotifyOfDisposal.html">INotifyOfDisposal</a></div>
     <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_OnPropertyChanged_System_String_">BindableBase.OnPropertyChanged(String)</a>
+      <a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_Dispose">DisposableBase.Dispose()</a>
     </div>
     <div>
-      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_">BindableBase.OnPropertyChanged(PropertyChangedEventArgs)</a>
+      <a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_OnDisposeManagedResources">DisposableBase.OnDisposeManagedResources()</a>
     </div>
     <div>
-      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_SetProperty__1___0____0_System_String_">BindableBase.SetProperty&lt;T&gt;(T, T, String)</a>
+      <a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_OnDisposeUnmanagedResources">DisposableBase.OnDisposeUnmanagedResources()</a>
     </div>
     <div>
-      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_SetProperty__1___0____0_System_ComponentModel_PropertyChangedEventArgs_">BindableBase.SetProperty&lt;T&gt;(T, T, PropertyChangedEventArgs)</a>
-    </div>
-    <div>
-      <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_PropertyChanged">BindableBase.PropertyChanged</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_IsDisposed">DisposableBase.IsDisposed</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Api.Core.Presentation.html">MAT.Atlas.Api.Core.Presentation</a></h6>
   <h6><strong>Assembly</strong>: MAT.Atlas.Api.Core.dll</h6>
   <h5 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class DisposableBindableBase : BindableBase, INotifyPropertyChanged, INotifyOfDisposal, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class DisposableBindableBase : DisposableBase, INotifyOfDisposal, IDisposable, INotifyPropertyChanged</code></pre>
   </div>
+  <h5 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This class decorates <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html">BindableBase</a> and delegates the <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+implementation to <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html">BindableBase</a>.</p>
+</div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase__ctor_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.#ctor*"></a>
   <h4 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase__ctor" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.#ctor">DisposableBindableBase()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Constructor.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -151,24 +132,15 @@
   
   
   <a id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_Dispose_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.Dispose*"></a>
-  <h4 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_Dispose" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-  </div>
-  
-  
-  <a id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_Dispose_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.Dispose*"></a>
   <h4 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_Dispose_System_Boolean_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Releases unmanaged and - optionally - managed resources.</p>
+  <div class="markdown level1 summary"><p>Called by <a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_Dispose">Dispose()</a> or finalization.
+This method calls, in the following order:<br>
+<ul><li></li><li></li></ul></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void Dispose(bool disposing)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool isDisposing)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,9 +154,230 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disposing</span></td>
-        <td><p><code>true</code> to release both managed and unmanaged resources; <code>false</code> to release only
-unmanaged resources.</p>
+        <td><span class="parametername">isDisposing</span></td>
+        <td><p>Has Dispose been called.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_Dispose_System_Boolean_">DisposableBase.Dispose(Boolean)</a></div>
+  <h5 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_Dispose_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method invokes the <a class="xref" href="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.html#MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_Disposed">Disposed</a> event handler after disposal</p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_OnPropertyChanged_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.OnPropertyChanged*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">OnPropertyChanged(PropertyChangedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html#MAT_Atlas_Api_Core_Presentation_BindableBase_PropertyChanged">PropertyChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotifyPropertyChangedInvocator]
+protected virtual void OnPropertyChanged(PropertyChangedEventArgs propertyChangedEventArgs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventArgs</span></td>
+        <td><span class="parametername">propertyChangedEventArgs</span></td>
+        <td><p>The <span class="xref">System.ComponentModel.PropertyChangedEventArgs</span> instance containing the event data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_OnPropertyChanged_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.OnPropertyChanged*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_OnPropertyChanged_System_String_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
+  <div class="markdown level1 summary"><p>Notifies listeners that a property value has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotifyPropertyChangedInvocator]
+protected virtual void OnPropertyChanged(string propertyName = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Name of the property used to notify listeners. This
+value is optional and can be provided automatically when invoked from compilers
+that support <span class="xref">System.Runtime.CompilerServices.CallerMemberNameAttribute</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_OnPropertyChanged_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This code is been inspired from Prism Framework and then customized.
+See <a href="https://github.com/PrismLibrary/Prism/blob/master/Source/Prism/Mvvm/BindableBase.cs">https://github.com/PrismLibrary/Prism/blob/master/Source/Prism/Mvvm/BindableBase.cs</a></p>
+</div>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_SetProperty_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.SetProperty*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_SetProperty__1___0____0_System_ComponentModel_PropertyChangedEventArgs_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.SetProperty``1(``0@,``0,System.ComponentModel.PropertyChangedEventArgs)">SetProperty&lt;T&gt;(ref T, T, PropertyChangedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Checks if a property already matches a desired value. Sets the property and
+notifies listeners only when necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool SetProperty&lt;T&gt;(ref T storage, T value, PropertyChangedEventArgs propertyChangedEventArgs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">storage</span></td>
+        <td><p>Reference to a property with both getter and setter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Desired value for the property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventArgs</span></td>
+        <td><span class="parametername">propertyChangedEventArgs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the value was changed, false if the existing value matched the
+desired value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_SetProperty_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.SetProperty*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_SetProperty__1___0____0_System_String_" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.SetProperty``1(``0@,``0,System.String)">SetProperty&lt;T&gt;(ref T, T, String)</h4>
+  <div class="markdown level1 summary"><p>Checks if a property already matches a desired value. Sets the property and
+notifies listeners only when necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool SetProperty&lt;T&gt;(ref T storage, T value, string propertyName = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">storage</span></td>
+        <td><p>Reference to a property with both getter and setter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Desired value for the property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Name of the property used to notify listeners. This
+value is optional and can be provided automatically when invoked from compilers that
+support CallerMemberName.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the value was changed, false if the existing value matched the
+desired value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the property.</p>
 </td>
       </tr>
     </tbody>
@@ -216,20 +409,46 @@ unmanaged resources.</p>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  
+  
+  <h4 id="MAT_Atlas_Api_Core_Presentation_DisposableBindableBase_PropertyChanged" data-uid="MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.PropertyChanged">PropertyChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when a property value changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
   </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="MAT.Atlas.Api.Core.System.INotifyOfDisposal.html">INotifyOfDisposal</a>
   </div>
   <div>
       <span class="xref">System.IDisposable</span>
   </div>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
-      <div><a class="xref" href="MAT.Atlas.Api.Core.Presentation.BindableBase.html">BindableBase</a></div>
+      <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
       <div><a class="xref" href="MAT.Atlas.Api.Core.System.INotifyOfDisposal.html">INotifyOfDisposal</a></div>
+      <div><a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html">DisposableBase</a></div>
   </div>
 </article>
           </div>
