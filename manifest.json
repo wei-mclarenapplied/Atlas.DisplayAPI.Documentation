@@ -3645,10 +3645,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "ASAqLy3vVGZS/RJQ6CuKrg=="
+          "hash": "aU5iyCojgsDRI5bmF4x0zg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -3665,23 +3665,83 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/automation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/automation.html",
+          "hash": "UbBP9oL1B39VQ2LFpTD3SA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/dataandservices.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/dataandservices.html",
+          "hash": "c2pljsfl1AwgjfzEC+fiSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/displays.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/displays.html",
+          "hash": "lLnXEfr4b6lW1FjuZNA1QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "Ouwp/Il2hJubHu5QaUPwnQ=="
+          "hash": "H/ecdnMj5cnUYo4mE0KOgg=="
         }
       },
       "is_incremental": true,
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
+      "type": "Conceptual",
+      "source_relative_path": "articles/parameter.md",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "relative_path": "articles/parameter.html",
+          "hash": "LnKpJA93Lx5EVwo2A+Ztdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugins.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugins.html",
+          "hash": "zoAErPpUN+eLh+PKSgR0LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/sessions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/sessions.html",
+          "hash": "yYsyEaRWfvtVbk0NjDn+yA=="
         }
       },
       "is_incremental": false,
@@ -3704,7 +3764,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "TENu7i+BeU43iaNCGWnoGg=="
+          "hash": "Bs28krE/YA3zv3wqqQ4SOQ=="
         }
       },
       "is_incremental": false,
@@ -3735,8 +3795,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 2
+          "total_file_count": 9,
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
